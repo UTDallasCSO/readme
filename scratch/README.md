@@ -21,10 +21,30 @@ We use web based application development interface for Scratch Programming:
 4. New sprites and backdrops can be added. Each sprite and backdrop is associated with respective sequence of scripts.
 ![Scratch homescreen](http://www.utdallas.edu/~veerasam/scratch/index_files/image004.jpg)
 ![Scratch interface](http://www.utdallas.edu/~veerasam/scratch/index_files/image005.gif)
+
 ####Scripts
+
 **Note**
 * [This](http://scratched.gse.harvard.edu/resources/search/results/taxonomy%3A28) link contains the 'suggested curriculum' as suggested on the official Scratch website
 * [This](http://scratched.gse.harvard.edu/resources) link has content curated according to age groups. 
+
+There are tons of actions we can do with each object – it will be too long to list them together! Instead, Scratch folks have grouped “related” actions together and placed under 10 different categories. All actions in each category are color-coded too.
+Script | Description
+------ | ------
+Motion | move, turn, set position and defines motion of sprite including what to do when it touches the edge.
+Looks | Make sprite to say, think, show, hide, switch costume/backdrop & change color. Costume is a fancy term for pose. Each object may have several constumes/poses – we can switch them as they move to make the animation! We can also go under Costumes tab to modify the current costumes and draw the additional ones!
+Sound | play different sounds, stop, change volume and tempo
+Pen | Make pen up, down, clear, change color and size – If you move the object after making pen down, it will keep drawing until the pen is up!
+Events | We can make a block of code when a particular event occurs. Here are a few examples for events:
+- a particular key is pressed,
+- mouse is pressed on an object
+- make a loud noise!
+Control | Control structures like if-then, if-then-else, wait, repeat loops, ... if-then & if-then-else add intelligence to program! Based on a condition, we can execute one path or another path! Repeat loop enables us to repeat # of steps again & again.
+Sensing | situations of sensing (ex. mouse down) and other environmental actions – This rich set of senses enable the programs to be responsive and enable us to do animations and games.
+Operators | arithmetic and logical operators, random number generator and few functions
+- we can compute using arithmetic expressions, we can check for complicated conditions using logical operators.
+- random number generator enables us to draw random figure or make random moves or turns – with the same code, random numbers enable us to draw random shapes! Even simple games utilize randomness to make random choices every time the game is played.
+Data | Create new variables (re-used in other scripts) and lists
 
 ####Examples
 
