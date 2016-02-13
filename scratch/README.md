@@ -39,12 +39,31 @@ Pen | Make pen up, down, clear, change color and size – If you move the object
 Events | We can make a block of code when a particular event occurs. Here are a few examples for events: <ul><li> a particular key is pressed, <li> mouse is pressed on an object <li> make a loud noise!</li></ul>
 Control | Control structures like if-then, if-then-else, wait, repeat loops, ... if-then & if-then-else add intelligence to program! Based on a condition, we can execute one path or another path! Repeat loop enables us to repeat # of steps again & again.
 Sensing | situations of sensing (ex. mouse down) and other environmental actions – This rich set of senses enable the programs to be responsive and enable us to do animations and games.
-Operators | arithmetic and logical operators, random number generator and few functions
-- we can compute using arithmetic expressions, we can check for complicated conditions using logical operators.
-- random number generator enables us to draw random figure or make random moves or turns – with the same code, random numbers enable us to draw random shapes! Even simple games utilize randomness to make random choices every time the game is played.
+Operators | arithmetic and logical operators, random number generator and few functions <ul><li>we can compute using arithmetic expressions, we can check for complicated conditions using logical operators.<li> random number generator enables us to draw random figure or make random moves or turns – with the same code, random numbers enable us to draw random shapes! Even simple games utilize randomness to make random choices every time the game is played.</ul>
 Data | Create new variables (re-used in other scripts) and lists
 
+#####Useful Shortcuts
+Script Pen>>Clear [Clears pen moves on screen]
+Script Motion>>go to x: 0 y: 0 [Sets the sprite at center of stage]
+Toolbar File>>Revert [Resets sprite to start]
+
+Reference sheet : http://tinyurl.com/scratchblocks
+
 ####Examples
+1. [Simple Animations using 1 object](#simple-animations-using-1-object)
+2. [Drawing various images](#drawing-various-images)
+3. [Power of Variables](#power-of-variables)
+4. [Looks & Costumes](#looks-&-costumes)
+5. [Events](#events)
+6. [Sensing](#sensing)
+7. [Starter Projects](#starter-projects)
+8. [Advanced Games](#advanced-games)
+9. [Advanced Topics](#advanced-topics)
+
+**Simple Animations using 1 object**
+----
+Seq # | Description | Code | Scene
+---|---|---|---
 
 ####Starter Projects/ Video Tutorials
 
