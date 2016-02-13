@@ -37,9 +37,9 @@ Looks | Make sprite to say, think, show, hide, switch costume/backdrop & change 
 Sound | play different sounds, stop, change volume and tempo
 Pen | Make pen up, down, clear, change color and size – If you move the object after making pen down, it will keep drawing until the pen is up!
 Events | We can make a block of code when a particular event occurs. Here are a few examples for events:
-        * a particular key is pressed,
-        * mouse is pressed on an object
-        * make a loud noise!
+    * a particular key is pressed,
+    * mouse is pressed on an object
+    * make a loud noise!
 Control | Control structures like if-then, if-then-else, wait, repeat loops, ... if-then & if-then-else add intelligence to program! Based on a condition, we can execute one path or another path! Repeat loop enables us to repeat # of steps again & again.
 Sensing | situations of sensing (ex. mouse down) and other environmental actions – This rich set of senses enable the programs to be responsive and enable us to do animations and games.
 Operators | arithmetic and logical operators, random number generator and few functions
