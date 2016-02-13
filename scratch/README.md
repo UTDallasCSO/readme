@@ -43,9 +43,9 @@ Operators | arithmetic and logical operators, random number generator and few fu
 Data | Create new variables (re-used in other scripts) and lists
 
 #####Useful Shortcuts
-Script Pen>>Clear [Clears pen moves on screen]
-Script Motion>>go to x: 0 y: 0 [Sets the sprite at center of stage]
-Toolbar File>>Revert [Resets sprite to start]
+* Script Pen>>Clear [Clears pen moves on screen]
+* Script Motion>>go to x: 0 y: 0 [Sets the sprite at center of stage]
+* Toolbar File>>Revert [Resets sprite to start]
 
 Reference sheet : http://tinyurl.com/scratchblocks
 
