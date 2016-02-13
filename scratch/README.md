@@ -60,7 +60,7 @@ Reference sheet : http://tinyurl.com/scratchblocks
 8. [Advanced Games](#advanced-games)
 9. [Advanced Topics](#advanced-topics)
 
-**Simple Animations using 1 object**
+#####**Simple Animations using 1 object**
 ----
 Seq # | Description | Code | Scene
 ---|---|---|---
