@@ -29,6 +29,7 @@ We use web based application development interface for Scratch Programming:
 * [This](http://scratched.gse.harvard.edu/resources) link has content curated according to age groups. 
 
 There are tons of actions we can do with each object – it will be too long to list them together! Instead, Scratch folks have grouped “related” actions together and placed under 10 different categories. All actions in each category are color-coded too.
+
 Script | Description
 ------ | ------
 Motion | move, turn, set position and defines motion of sprite including what to do when it touches the edge.
