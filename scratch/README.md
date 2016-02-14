@@ -64,9 +64,56 @@ Reference sheet : http://tinyurl.com/scratchblocks
 ----
 Seq # | Description | Code | Scene
 ---|---|---|---
-1A | Make the cat walk back & forth. After building this code block, you can simply click anywhere on the block to run! Click on it again to stop. What happens when the cat reaches the edge? | ![forever loop](http://www.utdallas.edu/~veerasam/scratch/index_files/image006.png) | 
-1B |
-We want it to turn around when it reaches the edge, right?
+1A | Make the cat walk back & forth. After building this code block, you can simply click anywhere on the block to run! Click on it again to stop. What happens when the cat reaches the edge? | ![1a](http://www.utdallas.edu/~veerasam/scratch/index_files/image006.png) | 
+1B | We want it to turn around when it reaches the edge, right? | ![1b](http://www.utdallas.edu/~veerasam/scratch/index_files/image007.png)
+1C
+Let us make it bounce around all edges! ![1c](http://www.utdallas.edu/~veerasam/scratch/index_files/image008.png)
+
+ 
+1D
+Now that it makes crazy moves, let us trace its path! ![1d](http://www.utdallas.edu/~veerasam/scratch/index_files/image009.png) | 1[1d2](http://www.utdallas.edu/~veerasam/scratch/index_files/image011.jpg)
+
+
+1E
+Tired of blue color? Let us change the colors along the way! Pen colors have been arranged in a sequence – you can keep going to the next color within the loop...Ok, how do the colors work in Scratch? Well, there are 200 shades of color (0 to 199, 200 and above will wrap-around)| ![1e](http://www.utdallas.edu/~veerasam/scratch/index_files/image013.png) | ![1e2](http://www.utdallas.edu/~veerasam/scratch/index_files/image015.jpg)
+
+
+
+1F
+Instead of tracing its path, you want more cats?
+
+
+1G
+Circle of cats! As it moves & turns, make an impression using stamp!
+ 
+Extra steps above repeat loop help us to see the whole big circle of cats!
+
+
+1H
+Back to basics: Make the cat walk back & forth normally. We do not want it to go upside down!
+
+ 
+1I
+Since cat has one more costume (pose), let us try to use it for walking!
+You can look at the posts by clicking on Costumes tab.
+
+ 
+1J
+Instead of clicking on the block, we can click on Green flag with this code! Press Stop sign to stop the execution.
+Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: ex2.png
+ 
+1K
+Make the Cat roll while changing color and playing sound. Let us trigger the block of code to run when space key is pressed.
+ 
+You may need to introduce
+set rotation style all around
+to make the turns to work properly.
+Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: ex1.png
+ 
+1L
+Multi-size cat problem! Cats keep growing until you press s! Then, it becomes small, but they start growing as soon as you release s key.
+
+
  
 ####Starter Projects/ Video Tutorials
 
