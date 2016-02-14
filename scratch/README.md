@@ -72,29 +72,11 @@ Seq # | Description | Code | Scene
 1F | Instead of tracing its path, you want more cats? | ![1f](http://www.utdallas.edu/~veerasam/scratch/index_files/image016.png) | ![1f2](http://www.utdallas.edu/~veerasam/scratch/index_files/image018.jpg)
 1G | Circle of cats! As it moves & turns, make an impression using stamp! Extra steps above repeat loop help us to see the whole big circle of cats! | ![1g](http://www.utdallas.edu/~veerasam/scratch/index_files/image020.jpg) | ![1g2](http://www.utdallas.edu/~veerasam/scratch/index_files/image022.jpg)
 1H | Back to basics: Make the cat walk back & forth normally. We do not want it to go upside down! | ![1h](http://www.utdallas.edu/~veerasam/scratch/index_files/image023.png) 
-
- 
-1I
-Since cat has one more costume (pose), let us try to use it for walking!
-You can look at the posts by clicking on Costumes tab.
-
- 
-1J
-Instead of clicking on the block, we can click on Green flag with this code! Press Stop sign to stop the execution.
-Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: ex2.png
- 
-1K
-Make the Cat roll while changing color and playing sound. Let us trigger the block of code to run when space key is pressed.
- 
-You may need to introduce
-set rotation style all around
-to make the turns to work properly.
-Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: Description: ex1.png
- 
-1L
-Multi-size cat problem! Cats keep growing until you press s! Then, it becomes small, but they start growing as soon as you release s key.
-
-
+1I | Since cat has one more costume (pose), let us try to use it for walking! You can look at the posts by clicking on Costumes tab. | ![1i](http://www.utdallas.edu/~veerasam/scratch/index_files/image024.png)
+1J | Instead of clicking on the block, we can click on Green flag with this code! Press Stop sign to stop the execution. | ![1j](http://www.utdallas.edu/~veerasam/scratch/index_files/image025.png)
+1K | Make the Cat roll while changing color and playing sound. Let us trigger the block of code to run when space key is pressed. You may need to introduce
+set rotation style all around to make the turns to work properly. | ![1k](http://www.utdallas.edu/~veerasam/scratch/index_files/image026.png)
+1L | Multi-size cat problem! Cats keep growing until you press s! Then, it becomes small, but they start growing as soon as you release s key. | ![1l](http://www.utdallas.edu/~veerasam/scratch/index_files/image027.png) | ![1l2](http://www.utdallas.edu/~veerasam/scratch/index_files/image029.jpg)
  
 ####Starter Projects/ Video Tutorials
 
