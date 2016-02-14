@@ -64,8 +64,7 @@ Reference sheet : http://tinyurl.com/scratchblocks
 ----
 Seq # | Description | Code | Scene
 ---|---|---|---
-1A | Make the cat walk back & forth. After building this code block, you can simply click anywhere on the block to run! Click on it again to stop.
-What happens when the cat reaches the edge? | ![forever loop](http://www.utdallas.edu/~veerasam/scratch/index_files/image006.png) | 
+1A | Make the cat walk back & forth. After building this code block, you can simply click anywhere on the block to run! Click on it again to stop. What happens when the cat reaches the edge? | ![forever loop](http://www.utdallas.edu/~veerasam/scratch/index_files/image006.png) | 
 
 
  
