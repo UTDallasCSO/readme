@@ -70,8 +70,8 @@ Seq # | Description | Code | Scene
 1D | Now that it makes crazy moves, let us trace its path! | ![1d](http://www.utdallas.edu/~veerasam/scratch/index_files/image009.png) | ![1d2](http://www.utdallas.edu/~veerasam/scratch/index_files/image011.jpg)
 1E | Tired of blue color? Let us change the colors along the way! Pen colors have been arranged in a sequence – you can keep going to the next color within the loop...Ok, how do the colors work in Scratch? Well, there are 200 shades of color (0 to 199, 200 and above will wrap-around)| ![1e](http://www.utdallas.edu/~veerasam/scratch/index_files/image013.png) | ![1e2](http://www.utdallas.edu/~veerasam/scratch/index_files/image015.jpg)
 1F | Instead of tracing its path, you want more cats? | ![1f](http://www.utdallas.edu/~veerasam/scratch/index_files/image016.png) | ![1f2](http://www.utdallas.edu/~veerasam/scratch/index_files/image018.jpg)
-1G | Circle of cats! As it moves & turns, make an impression using stamp! Extra steps above repeat loop help us to see the whole big circle of cats! | ![1g](http://www.utdallas.edu/~veerasam/scratch/index_files/image020.jpg) | ![1g2](http://www.utdallas.edu/~veerasam/scratch/index_files/image022.jpg
-1H | Back to basics: Make the cat walk back & forth normally. We do not want it to go upside down! | ![1h](http://www.utdallas.edu/~veerasam/scratch/index_files/image023.png)
+1G | Circle of cats! As it moves & turns, make an impression using stamp! Extra steps above repeat loop help us to see the whole big circle of cats! | ![1g](http://www.utdallas.edu/~veerasam/scratch/index_files/image020.jpg) | ![1g2](http://www.utdallas.edu/~veerasam/scratch/index_files/image022.jpg)
+1H | Back to basics: Make the cat walk back & forth normally. We do not want it to go upside down! | ![1h](http://www.utdallas.edu/~veerasam/scratch/index_files/image023.png) 
 
  
 1I
