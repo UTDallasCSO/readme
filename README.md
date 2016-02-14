@@ -12,7 +12,7 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
 ###Contents
  Beginner | Topic
 ----- | -----
- | [Scratch]()
+ | [Scratch](https://github.com/UTDallasCSO/content/tree/master/scratch)
  | [Alice]()
  | [JavaScript]()
  | [Java]()
