@@ -77,5 +77,19 @@ Seq # | Description | Code | Scene
 1K | Make the Cat roll while changing color and playing sound. Let us trigger the block of code to run when space key is pressed. You may need to introduce set rotation style all around to make the turns to work properly. | ![1k](http://www.utdallas.edu/~veerasam/scratch/index_files/image026.png)
 1L | Multi-size cat problem! Cats keep growing until you press s! Then, it becomes small, but they start growing as soon as you release s key. | ![1l](http://www.utdallas.edu/~veerasam/scratch/index_files/image027.png) | ![1l2](http://www.utdallas.edu/~veerasam/scratch/index_files/image029.jpg)
  
+#####**Drawing various images**
+----
+Seq # | Description | Code | Scene
+---|---|---|---
+2A | Let us select Pencil from sprite library & delete cat. You can delete the cat. Now edit the costume of Pencil and adjust the size and position so that the tip aligns with + sign. Now, review this code closely and guess what shape it is going to draw first. Now, build the script and try to validate your assumption. Now, modify this code and learn to draw a few other related shapes. | ![2a](http://www.utdallas.edu/~veerasam/scratch/index_files/image030.png) | ![2a2](http://www.utdallas.edu/~veerasam/scratch/index_files/image032.jpg)
+2B | Thanks to repeat block, code in 2A can be shortened. Draw a few other shapes using this approach. Now, try to draw a circle using this approach. Hint: Take tiny steps and turn little bit at a time. | ![2b](http://www.utdallas.edu/~veerasam/scratch/index_files/image033.png)
+2C | Here is a fancy drawing. Review the code first & try to understand. What is going on here? Now code it and see it in action. Change a few parameters carefully (think about it before you change) and see how the drawing changes. | ![2c](http://www.utdallas.edu/~veerasam/scratch/index_files/image034.png) | ![2c2](http://www.utdallas.edu/~veerasam/scratch/index_files/image035.png)
+2D | Look at the drawing and think how can try to draw it.  You can use
+setpencolor 128 for blue color. Also, you can use
+setpensize 2 for bit thicker line. | | ![2d](http://www.utdallas.edu/~veerasam/scratch/index_files/image036.png)
+
+
+
+
 ####Starter Projects/ Video Tutorials
 
