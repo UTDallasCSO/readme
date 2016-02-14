@@ -66,16 +66,9 @@ Seq # | Description | Code | Scene
 ---|---|---|---
 1A | Make the cat walk back & forth. After building this code block, you can simply click anywhere on the block to run! Click on it again to stop. What happens when the cat reaches the edge? | ![1a](http://www.utdallas.edu/~veerasam/scratch/index_files/image006.png) | 
 1B | We want it to turn around when it reaches the edge, right? | ![1b](http://www.utdallas.edu/~veerasam/scratch/index_files/image007.png)
-1C
-Let us make it bounce around all edges! ![1c](http://www.utdallas.edu/~veerasam/scratch/index_files/image008.png)
-
- 
-1D
-Now that it makes crazy moves, let us trace its path! ![1d](http://www.utdallas.edu/~veerasam/scratch/index_files/image009.png) | 1[1d2](http://www.utdallas.edu/~veerasam/scratch/index_files/image011.jpg)
-
-
-1E
-Tired of blue color? Let us change the colors along the way! Pen colors have been arranged in a sequence – you can keep going to the next color within the loop...Ok, how do the colors work in Scratch? Well, there are 200 shades of color (0 to 199, 200 and above will wrap-around)| ![1e](http://www.utdallas.edu/~veerasam/scratch/index_files/image013.png) | ![1e2](http://www.utdallas.edu/~veerasam/scratch/index_files/image015.jpg)
+1C | Let us make it bounce around all edges! | ![1c](http://www.utdallas.edu/~veerasam/scratch/index_files/image008.png) 
+1D | Now that it makes crazy moves, let us trace its path! | ![1d](http://www.utdallas.edu/~veerasam/scratch/index_files/image009.png) | 1[1d2](http://www.utdallas.edu/~veerasam/scratch/index_files/image011.jpg)
+1E | Tired of blue color? Let us change the colors along the way! Pen colors have been arranged in a sequence – you can keep going to the next color within the loop...Ok, how do the colors work in Scratch? Well, there are 200 shades of color (0 to 199, 200 and above will wrap-around)| ![1e](http://www.utdallas.edu/~veerasam/scratch/index_files/image013.png) | ![1e2](http://www.utdallas.edu/~veerasam/scratch/index_files/image015.jpg)
 
 
 
