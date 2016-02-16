@@ -100,7 +100,6 @@ Seq # | Description | Code | Scene
 3E | Let us return back to Cat. Make the cat walk back and forth (or) make it go in a circle. Increase/decrease the speed gradually. Basically, walk slowly first, gradually increase the speed along the way, once max speed is achieved, gradually decrease the speed back to minimum, so on.
 Hint: Define step as a variable, and increase/decrease it inside the loop.
 3F | As the Cat walks back and forth or goes around in a circle, shrink and expand the size of the cat (10% --> 200% --> 10% ...). As it walks make the size bigger. Once a maximum size is reached, keep decreasing the size until it becomes very small. Use a variable in to shrink and expand the cat. | 10% Size: ![3f](http://www.utdallas.edu/~veerasam/scratch/index_files/image047.png)
-3G | Set rotation style to left-right first, make the cat walk back and forth (NOT circle) – vary the walking distance: Walk for small distance first and turn. Now, walk some more distance and turn, now some more distance so on...Once a max distance is reached, now keep reducing the walking distance, until the walking distance becomes very small.
 
 ####Starter Projects/ Video Tutorials
 
