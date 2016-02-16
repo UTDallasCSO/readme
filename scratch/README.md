@@ -97,10 +97,22 @@ Seq # | Description | Code | Scene
 3B | How will you adjust the color as it proceeds? See the output. Now, draw expanding hexagons, triangles! | ![3b2](http://www.utdallas.edu/~veerasam/scratch/index_files/image040.png)
 3C | To draw a circle, we need to make a few adjustments: Draw a small line, turn little bit, draw bigger line, ... | ![3c](http://www.utdallas.edu/~veerasam/scratch/index_files/image041.png) | ![3c2](http://www.utdallas.edu/~veerasam/scratch/index_files/image042.png) 
 3D | Make the code changes to generate a drawing like this one. Note: Remember, there are 200 shades of color (0 to 199, 200 and above will wrap-around):![3d](http://wiki.scratch.mit.edu/w/images/Pen_color.png) Key thing is to change the color every time so that the color shade goes up by 200 for every 360 degrees. So, increase shade by (200/(360/5)) = (200/72) = 2.77777778 every time inside the loop! | | ![3d3](http://www.utdallas.edu/~veerasam/scratch/index_files/image043.png)
-3E | Let us return back to Cat. Make the cat walk back and forth (or) make it go in a circle. Increase/decrease the speed gradually. Basically, walk slowly first, gradually increase the speed along the way, once max speed is achieved, gradually decrease the speed back to minimum, so on.
-Hint: Define step as a variable, and increase/decrease it inside the loop.
+3E | Let us return back to Cat. Make the cat walk back and forth (or) make it go in a circle. Increase/decrease the speed gradually. Basically, walk slowly first, gradually increase the speed along the way, once max speed is achieved, gradually decrease the speed back to minimum, so on. Hint: Define step as a variable, and increase/decrease it inside the loop.
 3F | As the Cat walks back and forth or goes around in a circle, shrink and expand the size of the cat (10% --> 200% --> 10% ...). As it walks make the size bigger. Once a maximum size is reached, keep decreasing the size until it becomes very small. Use a variable in to shrink and expand the cat. | 10% Size: ![3f](http://www.utdallas.edu/~veerasam/scratch/index_files/image047.png)
 3G | Set rotation style to left-right first, make the cat walk back and forth (NOT circle) – vary the walking distance: Walk for small distance first and turn. Now, walk some more distance and turn, now some more distance so on...Once a max distance is reached, now keep reducing the walking distance, until the walking distance becomes very small.
+
+#####**Looks & Costumes**
+Seq # | Description | Code | Scene
+---|---|---|---
+4A | As Cat walks, switch between 2 poses (also known as costumes) | ![4a](http://www.utdallas.edu/~veerasam/scratch/index_files/image049.png) | ![4a2](http://www.utdallas.edu/~veerasam/scratch/index_files/image050.png)
+4B | Try the same approach with your favorite sprite. Following ones are good: boy3 boy3 walking ghost2 shark | | ![4b](http://www.utdallas.edu/~veerasam/scratch/index_files/image051.png)
+4C | Choose ballerina sprite (it has 4 costumes/poses!) and make her to do the act again & again (by switching between them continuously)!  If you want another sprite, try pico! | | ![4c](http://www.utdallas.edu/~veerasam/scratch/index_files/image055.png)
+4D | Do this at home! Take photos of a few poses of interesting object (it can be you!) doing funny moves, load them as costumes for a sprite and switch between them in a loop!
+4E | Select ghost2 and let us make it go around the city! Select a few favorite backdrops (fancy term for Background!) & delete the original white backdrop. Similar to sprite library, there is a library for backdrops too. | ![4E](http://www.utdallas.edu/~veerasam/scratch/index_files/image056.png) | ![4E2](http://www.utdallas.edu/~veerasam/scratch/index_files/image057.png)
+4F | Make it more fancy! We want to change the backdrop only when the ghost reaches the right end (you can check whether x > 225. Also, move the ghost to left end! Now, the ghost is really visiting the city, right? | ![4f](http://www.utdallas.edu/~veerasam/scratch/index_files/image058.png)
+4G | Go ahead and add a few more enhancements! Or, add your favorite sprite and make it roam through nature ... (there are lot of backdrops for nature). | ![4g](http://www.utdallas.edu/~veerasam/scratch/index_files/image059.png) | ![4g](http://www.utdallas.edu/~veerasam/scratch/index_files/image060.png)
+
+
 
 ####Starter Projects/ Video Tutorials
 
