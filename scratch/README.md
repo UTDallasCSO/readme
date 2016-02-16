@@ -112,6 +112,32 @@ Seq # | Description | Code | Scene
 4F | Make it more fancy! We want to change the backdrop only when the ghost reaches the right end (you can check whether x > 225. Also, move the ghost to left end! Now, the ghost is really visiting the city, right? | ![4f](http://www.utdallas.edu/~veerasam/scratch/index_files/image058.png)
 4G | Go ahead and add a few more enhancements! Or, add your favorite sprite and make it roam through nature ... (there are lot of backdrops for nature). | ![4g](http://www.utdallas.edu/~veerasam/scratch/index_files/image059.png) | ![4g](http://www.utdallas.edu/~veerasam/scratch/index_files/image060.png)
 
+#####**Events**
+Seq # | Description | Code | Scene
+---|---|---|---
+5A | We cannot play a game without user interaction, right? Events is all about user interactions. Let us start with Start and Stop signs. Write 2 blocks of code – they will run in parallel when Start flag is pressed! | ![5a](http://www.utdallas.edu/~veerasam/scratch/index_files/image061.png) | ![5A2](http://www.utdallas.edu/~veerasam/scratch/index_files/image062.png)
+5B | You can write code that get triggered by keyboard inputs. Add the following simple blocks of code (in addition to code in 5A) – now press b and s repeatedly. Now, click on Start flag, then press b and s to see the effect. | ![5B](http://www.utdallas.edu/~veerasam/scratch/index_files/image063.png) | ![5B](http://www.utdallas.edu/~veerasam/scratch/index_files/image064.png)
+5C | How about leaving a stamp along the way? Every time when you press c, it will leave a stamp! | ![5C](http://www.utdallas.edu/~veerasam/scratch/index_files/image066.png) | ![5C2](http://www.utdallas.edu/~veerasam/scratch/index_files/image067.png)
+5D | Do this at home (not sure lab will be quite enough to do this one)! Add this code and talk at the computer to make the Cat bigger! | ![5D](http://www.utdallas.edu/~veerasam/scratch/index_files/image068.png)
+5E | Do this at home too! Start fresh and do this code alone. As the Cat gets smaller, say something! It will get bigger!! Do your own extensions!!! | ![5E](http://www.utdallas.edu/~veerasam/scratch/index_files/image069.png)
+
+#####**Sensing**
+Seq # | Description | Code | Scene
+---|---|---|---
+6A | How about changing color in addition to bouncing when an edge is reached? Feel free to make your own modifications. | ![6A](http://www.utdallas.edu/~veerasam/scratch/index_files/image070.png) |![6A2](http://www.utdallas.edu/~veerasam/scratch/index_files/image071.png)
+6B | Try to do the same with a ball (assign random color when it bounces). Also, make it bounce in all 4 edges.
+6C | As the cat is walking back and forth, it is tired and goes down a bit in size! Let us introduce a mouse along the way. As the cat crosses the mouse, cat eats it and grows in size! Add Mouse sprite and complete this code. You can move the mouse around to control cat’s size. You can also play with the values in the program. | ![6C](http://www.utdallas.edu/~veerasam/scratch/index_files/image072.png) | ![6C2](http://www.utdallas.edu/~veerasam/scratch/index_files/image073.png)
+6D | Here is the same program with a small twist. Enhance the program so that cat does not become huge! Once it reaches the certain size, it can say “I am not hungry anymore. Let us play!” when it gets to close to the mouse! Use your creativity to enhance it more!! | ![6D](http://www.utdallas.edu/~veerasam/scratch/index_files/image074.png) | ![6D2](http://www.utdallas.edu/~veerasam/scratch/index_files/image075.png)
+6E | [This](scratch.mit.edu/projects/15147375) shows another silly version. Review & understand the code for both sprites first. Note that it uses “distance to” function. Now, make the code changes to freeze the mouse when cat comes close to it. Another version would be to disguise as a bug. Create your own variations! 
+
+#####**Starter Projects**
+Seq # | Description | Code | Scene
+---|---|---|---
+7A | Greeting Card: scratch.mit.edu/projects/11806234 Play it first. Then, click on to see the code behind this project. Review the code for this project first, then enhance it to make your favorite object to glide in when the greeting card is opened. You can control the glide speed by specifying the duration. | | ![7a](http://www.utdallas.edu/~veerasam/scratch/index_files/image079.png)
+7B | Pong Starter: scratch.mit.edu/projects/10128515 Review the code first, then make the following enhancements: Introduce a variable “score” to keep track of # of successful bounces. Increase the speed of the ball after each bounce, or introduce levels and increase the speed when the score reaches 10, 20, 30, etc. (change backdrop too?) Right-click on Ball sprite and duplicate it! Then, go to code for Ball2 and set the starting location x = 120 (instead of 20) and change the color to your favorite one! Now, play the game with 2 balls! | ![7b](http://www.utdallas.edu/~veerasam/scratch/index_files/image080.png)
+7C | http://scratch.mit.edu/projects/15768956/ Play this Shark-Fish game and review the code to understand. Then, think of your own enhancements and have fun with it! | | ![7c](http://www.utdallas.edu/~veerasam/scratch/index_files/image082.jpg)
+ 
+
 
 
 ####Starter Projects/ Video Tutorials
