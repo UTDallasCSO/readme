@@ -22,10 +22,8 @@ P1 | Alice installation and lab setup - 1 week prior to workshop, download Alice
 6 | Working with Object’s parts - there are properties and methods associated with each object. Specifically we need to understand all possible movements first. | [Flash](http://www.utdallas.edu/~veerasam/alice/work_with_parts.swf)/[YouTube](http://www.youtube.com/watch?v=HQOFkEEErsI) | 7 minutes
 6a | Add the same or a similar object from gallery and practice various methods for body parts. You can always UNDO after trying each move. 
 7 | Our first program – Coach and Penguin - a sequence of actions – DO TOGETHER brings realism – Loop to repeat actions | [Flash](http://www.utdallas.edu/~veerasam/alice/first_program.swf)/[YouTube](http://www.youtube.com/watch?v=1JNfWsilf0U), [Scene](http://www.utdallas.edu/~veerasam/alice/first_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/first_program.a2w) | 11 minutes
-7a
-Complete the same program on your own!
-Replay video if needed.
- 15 minutes
+7a | Complete the same program on your own! Replay video if needed.
+ ||15 minutes
 7b
 Do at least one exercise from the following list. Work on all of them if time permits:
  
