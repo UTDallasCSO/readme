@@ -151,7 +151,7 @@ Escape the Box: http://scratch.mit.edu/projects/3047921/#editor
 Burger Cat Test: http://scratch.mit.edu/projects/2286584/#editor
 Tic Tac Toe: http://scratch.mit.edu/projects/1425/
 
-#####**Advanced Topics: Recursion**
+#####**Advanced Topics**
 Output | Code
 ---- | -----
 ![1](http://www.utdallas.edu/~veerasam/scratch/index_files/image083.png) | http://scratch.mit.edu/projects/11937841
