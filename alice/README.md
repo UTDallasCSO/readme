@@ -1,4 +1,4 @@
-[Virtual hands-on workshop : “Enjoyable Introduction to Programming using  Alice”](http://www.utdallas.edu/~veerasam/alice/virutal_workshop.docx)
+##[Virtual hands-on workshop : “Enjoyable Introduction to Programming using  Alice”](http://www.utdallas.edu/~veerasam/alice/virutal_workshop.docx)
 
 by Dr. Jeyakesavan Veerasamy, CS faculty, University of Texas at Dallas, USA.
  
@@ -23,8 +23,7 @@ P1 | Alice installation and lab setup - 1 week prior to workshop, download Alice
 6a | Add the same or a similar object from gallery and practice various methods for body parts. You can always UNDO after trying each move. 
 7 | Our first program – Coach and Penguin - a sequence of actions – DO TOGETHER brings realism – Loop to repeat actions | [Flash](http://www.utdallas.edu/~veerasam/alice/first_program.swf)/[YouTube](http://www.youtube.com/watch?v=1JNfWsilf0U), [Scene](http://www.utdallas.edu/~veerasam/alice/first_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/first_program.a2w) | 11 minutes
 7a | Complete the same program on your own! Replay video if needed | | 15 minutes
-7b | Do at least one exercise from the following list. Work on all of them if time permits:<ul><li>Exercise 1: Add cow and chicken to a new world and make them greet each other by bowing, then go back to normal position. Repeat it using a loop.<li>Exercise 2: Add two animals like Dog and Cat. Make the dominant animal approach the other one. Now, make the 2nd animal grow in size and scare the first animal. 1st animal should turn and run away. Repeat it using a loop.<li>Exercise 3: Add two people, make them face each other, place a ball in-between them and try to simulate kicking the ball back & forth.</ul> |
- | 15 minutes
+7b | Do at least one exercise from the following list. Work on all of them if time permits:<ul><li>Exercise 1: Add cow and chicken to a new world and make them greet each other by bowing, then go back to normal position. Repeat it using a loop.<li>Exercise 2: Add two animals like Dog and Cat. Make the dominant animal approach the other one. Now, make the 2nd animal grow in size and scare the first animal. 1st animal should turn and run away. Repeat it using a loop.<li>Exercise 3: Add two people, make them face each other, place a ball in-between them and try to simulate kicking the ball back & forth.</ul> | | 15 minutes
 8 | Reinforcement: Seaplane example | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_plane.swf)/[YouTube](http://www.youtube.com/watch?v=TQFKgidhQv8), [Scene](http://www.utdallas.edu/~veerasam/alice/plane_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/plane.a2w) | 13 minutes
 8a | Complete the same program on your own! Replay video if needed. | | 10 minutes
 8b | Use the same seaplane & make it go in a circle on the water surface instead. Then, make it a bumpy ride (you can use sine wave) 
