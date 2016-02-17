@@ -23,41 +23,20 @@ P1 | Alice installation and lab setup - 1 week prior to workshop, download Alice
 6a | Add the same or a similar object from gallery and practice various methods for body parts. You can always UNDO after trying each move. 
 7 | Our first program – Coach and Penguin - a sequence of actions – DO TOGETHER brings realism – Loop to repeat actions | [Flash](http://www.utdallas.edu/~veerasam/alice/first_program.swf)/[YouTube](http://www.youtube.com/watch?v=1JNfWsilf0U), [Scene](http://www.utdallas.edu/~veerasam/alice/first_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/first_program.a2w) | 11 minutes
 7a | Complete the same program on your own! Replay video if needed.
- ||15 minutes
-7b
-Do at least one exercise from the following list. Work on all of them if time permits:
- 
-Exercise 1: Add cow and chicken to a new world and make them greet each other by bowing, then go back to normal position. Repeat it using a loop.
- 
-Exercise 2: Add two animals like Dog and Cat. Make the dominant animal approach the other one. Now, make the 2nd animal grow in size and scare the first animal. 1st animal should turn and run away. Repeat it using a loop.
- 
-Exercise 3: Add two people, make them face each other, place a ball in-between them and try to simulate kicking the ball back & forth.
- 
- 15 minutes
-8
-Reinforcement: Seaplane example
-Flash/YouTube, Scene, Final
- 13 minutes
-8a
-Complete the same program on your own!
-Replay video if needed.
- 10 minutes
-8b
-Use the same seaplane & make it go in a circle on the water surface instead. Then, make it a bumpy ride (you can use sine wave)
- 
- 
-9
-Reinforcement: Person walking back & forth using nested loops
-Flash/YouTube, Scene, Final
- 11 minutes
-9a
-Complete the same program on your own!
-Replay video if needed.
- 10 minutes
-10
-Person walking back & forth using a loop and IF statements - alternate implementation
-Flash/YouTube, Scene, Final
- 6 minutes
+ | | 15 minutes
+7b | Do at least one exercise from the following list. Work on all of them if time permits:<ul><li>Exercise 1: Add cow and chicken to a new world and make them greet each other by bowing, then go back to normal position. Repeat it using a loop.<li>Exercise 2: Add two animals like Dog and Cat. Make the dominant animal approach the other one. Now, make the 2nd animal grow in size and scare the first animal. 1st animal should turn and run away. Repeat it using a loop.<li>Exercise 3: Add two people, make them face each other, place a ball in-between them and try to simulate kicking the ball back & forth. |
+ | 15 minutes
+8 | Reinforcement: Seaplane example | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_plane.swf)/[YouTube](http://www.youtube.com/watch?v=TQFKgidhQv8), [Scene](http://www.utdallas.edu/~veerasam/alice/plane_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/plane.a2w) | 13 minutes
+8a | Complete the same program on your own! Replay video if needed. | | 10 minutes
+8b | Use the same seaplane & make it go in a circle on the water surface instead. Then, make it a bumpy ride (you can use sine wave) 
+9 | Reinforcement: Person walking back & forth using nested loops | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_jock_walk1.swf)/[YouTube](http://www.youtube.com/watch?v=2rk3jc4Syfg), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/jock_walk1.a2w) | 11 minutes
+9a | Complete the same program on your own! Replay video if needed. | | 10 minutes
+10 | Person walking back & forth using a loop and IF statements - alternate implementation | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_jock_walk2.swf)/[YouTube](http://www.youtube.com/watch?v=TLv2ljcCyXA), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/jock_walk2.a2w) |  6 minutes
+
+
+
+
+
 10a
 Complete the same program on your own!
 Replay video if needed.
