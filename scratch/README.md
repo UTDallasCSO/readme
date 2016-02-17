@@ -130,7 +130,10 @@ Seq # | Description | Code | Scene
 6A | How about changing color in addition to bouncing when an edge is reached? Feel free to make your own modifications. | ![6A](http://www.utdallas.edu/~veerasam/scratch/index_files/image070.png) |![6A2](http://www.utdallas.edu/~veerasam/scratch/index_files/image071.png)
 6B | Try to do the same with a ball (assign random color when it bounces). Also, make it bounce in all 4 edges.
 6C | As the cat is walking back and forth, it is tired and goes down a bit in size! Let us introduce a mouse along the way. As the cat crosses the mouse, cat eats it and grows in size! Add Mouse sprite and complete this code. You can move the mouse around to control cat’s size. You can also play with the values in the program. | ![6C](http://www.utdallas.edu/~veerasam/scratch/index_files/image072.png) | ![6C2](http://www.utdallas.edu/~veerasam/scratch/index_files/image073.png)
-6D | Here is the same program with a small twist. Enhance the program so that cat does not become huge! Once it reaches the certain size, it can say “I am not hungry anymore. Let us play!” when it gets to close to the mouse! Use your creativity to enhance it more!! | ![6D](http://www.utdallas.edu/~veerasam/scratch/index_files/image074.png) | ![6D2](http://www.utdallas.edu/~veerasam/scratch/index_files/image075.png)
+6D | Here is the same program with a small twist. 
+Enhance the program so that cat does not become huge! Once it reaches the certain size, 
+it can say “I am not hungry anymore. Let us play!” when it gets to close to the mouse! 
+Use your creativity to enhance it more!! | ![6D](http://www.utdallas.edu/~veerasam/scratch/index_files/image074.png) | ![6D2](http://www.utdallas.edu/~veerasam/scratch/index_files/image075.png)
 6E | [This](scratch.mit.edu/projects/15147375) shows another silly version. Review & understand the code for both sprites first. Note that it uses “distance to” function. Now, make the code changes to freeze the mouse when cat comes close to it. Another version would be to disguise as a bug. Create your own variations! 
 
 #####**Starter Projects**
