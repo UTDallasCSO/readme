@@ -102,6 +102,7 @@ Seq # | Description | Code | Scene
 3G | Set rotation style to left-right first, make the cat walk back and forth (NOT circle) – vary the walking distance: Walk for small distance first and turn. Now, walk some more distance and turn, now some more distance so on...Once a max distance is reached, now keep reducing the walking distance, until the walking distance becomes very small.
 
 #####**Looks & Costumes**
+-----
 Seq # | Description | Code | Scene
 ---|---|---|---
 4A | As Cat walks, switch between 2 poses (also known as costumes) | ![4a](http://www.utdallas.edu/~veerasam/scratch/index_files/image049.png) | ![4a2](http://www.utdallas.edu/~veerasam/scratch/index_files/image050.png)
@@ -113,6 +114,7 @@ Seq # | Description | Code | Scene
 4G | Go ahead and add a few more enhancements! Or, add your favorite sprite and make it roam through nature ... (there are lot of backdrops for nature). | ![4g](http://www.utdallas.edu/~veerasam/scratch/index_files/image059.png) | ![4g](http://www.utdallas.edu/~veerasam/scratch/index_files/image060.png)
 
 #####**Events**
+-----
 Seq # | Description | Code | Scene
 ---|---|---|---
 5A | We cannot play a game without user interaction, right? Events is all about user interactions. Let us start with Start and Stop signs. Write 2 blocks of code – they will run in parallel when Start flag is pressed! | ![5a](http://www.utdallas.edu/~veerasam/scratch/index_files/image061.png) | ![5A2](http://www.utdallas.edu/~veerasam/scratch/index_files/image062.png)
@@ -122,6 +124,7 @@ Seq # | Description | Code | Scene
 5E | Do this at home too! Start fresh and do this code alone. As the Cat gets smaller, say something! It will get bigger!! Do your own extensions!!! | ![5E](http://www.utdallas.edu/~veerasam/scratch/index_files/image069.png)
 
 #####**Sensing**
+-----
 Seq # | Description | Code | Scene
 ---|---|---|---
 6A | How about changing color in addition to bouncing when an edge is reached? Feel free to make your own modifications. | ![6A](http://www.utdallas.edu/~veerasam/scratch/index_files/image070.png) |![6A2](http://www.utdallas.edu/~veerasam/scratch/index_files/image071.png)
@@ -131,14 +134,27 @@ Seq # | Description | Code | Scene
 6E | [This](scratch.mit.edu/projects/15147375) shows another silly version. Review & understand the code for both sprites first. Note that it uses “distance to” function. Now, make the code changes to freeze the mouse when cat comes close to it. Another version would be to disguise as a bug. Create your own variations! 
 
 #####**Starter Projects**
+-----
 Seq # | Description | Code | Scene
 ---|---|---|---
 7A | Greeting Card: scratch.mit.edu/projects/11806234 Play it first. Then, click on to see the code behind this project. Review the code for this project first, then enhance it to make your favorite object to glide in when the greeting card is opened. You can control the glide speed by specifying the duration. | | ![7a](http://www.utdallas.edu/~veerasam/scratch/index_files/image079.png)
 7B | Pong Starter: scratch.mit.edu/projects/10128515 Review the code first, then make the following enhancements: Introduce a variable “score” to keep track of # of successful bounces. Increase the speed of the ball after each bounce, or introduce levels and increase the speed when the score reaches 10, 20, 30, etc. (change backdrop too?) Right-click on Ball sprite and duplicate it! Then, go to code for Ball2 and set the starting location x = 120 (instead of 20) and change the color to your favorite one! Now, play the game with 2 balls! | ![7b](http://www.utdallas.edu/~veerasam/scratch/index_files/image080.png)
 7C | http://scratch.mit.edu/projects/15768956/ Play this Shark-Fish game and review the code to understand. Then, think of your own enhancements and have fun with it! | | ![7c](http://www.utdallas.edu/~veerasam/scratch/index_files/image082.jpg)
  
+#####**Video tutorials**
+-------
+[Wizard Game](http://scratch.mit.edu/help/videos/#)
 
+#####**Advanced Games**
+-----
+Escape the Box: http://scratch.mit.edu/projects/3047921/#editor
+Burger Cat Test: http://scratch.mit.edu/projects/2286584/#editor
+Tic Tac Toe: http://scratch.mit.edu/projects/1425/
 
-
-####Starter Projects/ Video Tutorials
-
+#####**Advanced Topics: Recursion**
+Output | Code
+---- | -----
+![1](http://www.utdallas.edu/~veerasam/scratch/index_files/image083.png) | http://scratch.mit.edu/projects/11937841
+![2](http://www.utdallas.edu/~veerasam/scratch/index_files/image084.png) | http://scratch.mit.edu/projects/22119922
+![3](http://www.utdallas.edu/~veerasam/scratch/index_files/image085.png) | http://scratch.mit.edu/projects/22120049
+![4](http://www.utdallas.edu/~veerasam/scratch/index_files/image086.png) | http://scratch.mit.edu/projects/22288874
