@@ -31,36 +31,36 @@ P1 | Alice installation and lab setup - 1 week prior to workshop, download Alice
 9a | Complete the same program on your own! Replay video if needed. | | 10 minutes
 10 | Person walking back & forth using a loop and IF statements - alternate implementation | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_jock_walk2.swf)/[YouTube](http://www.youtube.com/watch?v=TLv2ljcCyXA), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/jock_walk2.a2w) |  6 minutes
 10a | Complete the same program on your own! Replay video if needed. | | 10 minutes
-11 | Jack's sophisticated walk using a built-in method! | [Flash]/[YouTube], [Scene], [Final] | 9 minutes
+11 | Jack's sophisticated walk using a built-in method! | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_jock_walk3.swf)/[YouTube](http://www.youtube.com/watch?v=n3nybsjhwqM), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/jock_walk3.a2w) | 9 minutes
 11a | Complete the same program on your own! Replay video if needed. | | 10 minutes
-12 | Our own sophisticated walk using new methods | [Flash]/[YouTube], [Scene], [Final] | 12 minutes
+12 | Our own sophisticated walk using new methods | [Flash](http://www.utdallas.edu/~veerasam/alice/jock_steps.swf)/[YouTube](http://www.youtube.com/watch?v=vpkaFpCwOoQ), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/jock_steps.a2w) | 12 minutes
 12a | Complete the same program on your own! Replay video if needed. | | 10 minutes
 12b | Enhance the program to include the coordinated hand movements as well. | | 10 minutes
-13 | Our own sophisticated walk using a new method with a parameter | [Flash]/[YouTube], [Scene],[Final] | 8 minutes 
+13 | Our own sophisticated walk using a new method with a parameter | [Flash](http://www.utdallas.edu/~veerasam/alice/jock_step.swf)/[YouTube](http://www.youtube.com/watch?v=egHbfo0dZR0), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w),[Final](http://www.utdallas.edu/~veerasam/alice/jock_step.a2w) | 8 minutes 
 13a | Complete the same program on your own! Replay video if needed. |
  | 10 minutes 
-14 | Working with numbers: Guessing game - Let the computer think of a number (use random number generation). Your goal is to make minimum # of guesses to find that number. | [Flash]/[YouTube], [Scene],[ Final] | 20 minutes
+14 | Working with numbers: Guessing game - Let the computer think of a number (use random number generation). Your goal is to make minimum # of guesses to find that number. | [Flash](http://www.utdallas.edu/~veerasam/alice/guessinggame.swf)/[YouTube](http://www.youtube.com/watch?v=fkewx4OcgGs), [Scene](http://www.utdallas.edu/~veerasam/alice/guessing_game_scene.a2w),[Final](http://www.utdallas.edu/~veerasam/alice/guessing_game.a2w) | 20 minutes
 14a | Complete the same program on your own! Replay video if needed. | | 15 minutes
 14b | Reverse guessing game: you should think of a number between 1 and 100. Computer should ask minimum # of questions and try to find that number. | | 20 minutes
-15 | Math practice: Generate 2 random integers: one from the range of  1 to 100 and the second one from the range of 1 to 20. Select a random operation (+,-,* or /) and pose the math question to the user. Get the user’s input and validate the answer. Repeat it 10 times and summarize the student’s performance. | [Final]
-16 | Concept: Array - Lots of data of same type | [PPT]/[PDF]
-17 | Time for group dance! Add similar objects and use DO ALL TOGETHER structure to perform a group dance. | [Flash]/[YouTube],[Scene], [Final] | 13 minutes
+15 | Math practice: Generate 2 random integers: one from the range of  1 to 100 and the second one from the range of 1 to 20. Select a random operation (+,-,* or /) and pose the math question to the user. Get the user’s input and validate the answer. Repeat it 10 times and summarize the student’s performance. | [Final](http://www.utdallas.edu/~veerasam/alice/mathpractice.a2w)
+16 | Concept: Array - Lots of data of same type | [PPT](http://www.utdallas.edu/~veerasam/alice/arrays.pptx)/[PDF](http://www.utdallas.edu/~veerasam/alice/arrays.pdf)
+17 | Time for group dance! Add similar objects and use DO ALL TOGETHER structure to perform a group dance. | [Flash](http://www.utdallas.edu/~veerasam/alice/dancers.swf)/[YouTube](http://www.youtube.com/watch?v=gbCMZKwpiU0),[Scene](http://www.utdallas.edu/~veerasam/alice/dancers_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/dancers.a2w) | 13 minutes
 17a | Complete the same program on your own! Replay video if needed. 
-18 | Sophisticated group dance! As long as all objects in the group have same object structure, then you can do more sophisticated dance! | [Flash]/[YouTube], [Scene], [Final]
+18 | Sophisticated group dance! As long as all objects in the group have same object structure, then you can do more sophisticated dance! | [Flash](http://www.utdallas.edu/~veerasam/alice/dancers_parts.swf)/[YouTube](http://www.youtube.com/watch?v=gujjsoZDFw0), [Scene](http://www.utdallas.edu/~veerasam/alice/dancers.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/dancers_parts.a2w)
 18a | Complete the same program on your own! Replay video if needed.
-19 | Generate Texas Lotto winning numbers – basically we need to output 6 random numbers within the range of 1 to 50. We also need to ensure that there is no repetition of numbers. In other words, all 6 numbers should be unique. | [Final]
+19 | Generate Texas Lotto winning numbers – basically we need to output 6 random numbers within the range of 1 to 50. We also need to ensure that there is no repetition of numbers. In other words, all 6 numbers should be unique. | [Final](http://www.utdallas.edu/~veerasam/alice/lotto.a2w)
 19a | Complete the same program on your own! 
 19b | How much you won in Texas Lottery? This lottery involves getting 6 numbers from the user and selecting 6 numbers randomly and see how many numbers matched. Winning amount increases as # of matches increase.
 20 | Searching for a number in an array: Generate 10 random numbers within the range of 1 to 30 first. Then, ask the user to select a number and check whether that number is in the array. 
 20a | Complete the same program on your own!
 21 | Concept: Events
-21 | Events: Hit the coach’s head with the ball. | [Flash]/[YouTube], [Scene], [Final] 
+21 | Events: Hit the coach’s head with the ball. | [Flash](http://www.utdallas.edu/~veerasam/alice/coach_ball.swf)/[YouTube](http://www.youtube.com/watch?v=8oqe-cSNEFI), [Scene](http://www.utdallas.edu/~veerasam/alice/coach_ball_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/coach_ball.a2w) 
 21a | Complete the same program on your own! Replay video if needed.
-22 | Frog game setup: Move lily pads at random speeds independently | [Flash]/[YouTube], [Scene], [Final] 
+22 | Frog game setup: Move lily pads at random speeds independently | [Flash](http://www.utdallas.edu/~veerasam/alice/frog_game_setup.swf)/[YouTube](http://www.youtube.com/watch?v=m4xaiJaCzbY), [Scene](http://www.utdallas.edu/~veerasam/alice/frog_game_setup.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/frog_game_setup2.a2w) 
 22a | Complete the same program on your own! Replay video if needed. 
-23 | Frog game: Frog jumping game - our frog cannot swim :-( so it needs to jump on the moving lily pads 5 times to reach the destination. | [Flash]/[YouTube], [Scene],[Final]
+23 | Frog game: Frog jumping game - our frog cannot swim :-( so it needs to jump on the moving lily pads 5 times to reach the destination. | [Flash](http://www.utdallas.edu/~veerasam/alice/frog_game_final.swf)/[YouTube](http://www.youtube.com/watch?v=89dTRi_cKMg), [Scene](http://www.utdallas.edu/~veerasam/alice/frog_game_setup2.a2w),[Final](http://www.utdallas.edu/~veerasam/alice/frog_game_final.a2w)
 23a | Complete the same program on your own! Replay video if needed. 
-24 | Memory game - there are 2 copies of each image hidden under the squares. If you find matching images, they will stay up, otherwise they will be hidden again. Goal is to open all the images with minimum # of clicks. | [Scene], [Final]
+24 | Memory game - there are 2 copies of each image hidden under the squares. If you find matching images, they will stay up, otherwise they will be hidden again. Goal is to open all the images with minimum # of clicks. | [Scene](http://www.utdallas.edu/~veerasam/alice/memorygame_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/memorygame.a2w)
 24a | Complete the same program on your own!
 24b | Enhance memory game to keep track of # of number of clicks and report it.
 25 | Connect4 game - develop it for 2 players to play against each other. We need to implement the logic to determine the winner.
