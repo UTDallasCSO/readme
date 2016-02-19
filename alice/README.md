@@ -30,43 +30,15 @@ P1 | Alice installation and lab setup - 1 week prior to workshop, download Alice
 9 | Reinforcement: Person walking back & forth using nested loops | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_jock_walk1.swf)/[YouTube](http://www.youtube.com/watch?v=2rk3jc4Syfg), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/jock_walk1.a2w) | 11 minutes
 9a | Complete the same program on your own! Replay video if needed. | | 10 minutes
 10 | Person walking back & forth using a loop and IF statements - alternate implementation | [Flash](http://www.utdallas.edu/~veerasam/alice/alice_jock_walk2.swf)/[YouTube](http://www.youtube.com/watch?v=TLv2ljcCyXA), [Scene](http://www.utdallas.edu/~veerasam/alice/jock_scene.a2w), [Final](http://www.utdallas.edu/~veerasam/alice/jock_walk2.a2w) |  6 minutes
-
-
-
-
-
-10a
-Complete the same program on your own!
-Replay video if needed.
- 10 minutes
-11
-Jack's sophisticated walk using a built-in method!
-Flash/YouTube, Scene, Final
- 9 minutes
-11a
-Complete the same program on your own!
-Replay video if needed.
-10 minutes
-12
-Our own sophisticated walk using new methods
-Flash/YouTube, Scene, Final
-12 minutes
-12a
-Complete the same program on your own!
-Replay video if needed.
-10 minutes
-12b
-Enhance the program to include the coordinated hand movements as well.
- 
-10 minutes
-13
-Our own sophisticated walk using a new method with a parameter
-Flash/YouTube, Scene, Final
-8 minutes 
-13a
-Complete the same program on your own!
-Replay video if needed.
-10 minutes 
+10a | Complete the same program on your own! Replay video if needed. | | 10 minutes
+11 | Jack's sophisticated walk using a built-in method! | [Flash]/[YouTube], [Scene], [Final] | 9 minutes
+11a | Complete the same program on your own! Replay video if needed. | | 10 minutes
+12 | Our own sophisticated walk using new methods | [Flash]/[YouTube], [Scene], [Final] | 12 minutes
+12a | Complete the same program on your own! Replay video if needed. | | 10 minutes
+12b | Enhance the program to include the coordinated hand movements as well. | | 10 minutes
+13 | Our own sophisticated walk using a new method with a parameter | [Flash]/[YouTube], [Scene],[Final] | 8 minutes 
+13a | Complete the same program on your own! Replay video if needed. |
+ | 10 minutes 
 14
 Working with numbers: Guessing game - Let the computer think of a number (use random number generation). Your goal is to make minimum # of guesses to find that number.
 Flash/YouTube, Scene, Final
