@@ -67,39 +67,21 @@ P1 | Alice installation and lab setup - 1 week prior to workshop, download Alice
 25a | Complete the same program on your own!
 
 Additional Topics
- 
-Item
-Description
-Material
-Duration
-A1
-Incorporate sounds, even your own sound files...
- 
-A1a
-Try to do the same program on your own!
-Replay video if needed.
- 
-A2
-Cameras move in real movies - let us do the same! Two kids holding hands together & facing each other. Mount the camera on one kid’s head and go round and round...
- 
-A2a
-Try to do the same program on your own!
-Replay video if needed.
- 
-A3
-Saving code and video
- 
-A3a
-Try to do the same program on your own!
-Replay video if needed.
- 
- 
 
+Item | Description | Material | Duration
+---- | ---- | ---- | ---- 
+A1 | Incorporate sounds, even your own sound files...
+A1a | Try to do the same program on your own! Replay video if needed.
+A2 | Cameras move in real movies - let us do the same! Two kids holding hands together & facing each other. Mount the camera on one kid’s head and go round and round...
+A2a | Try to do the same program on your own! Replay video if needed.
+A3 | Saving code and video 
+A3a | Try to do the same program on your own. Replay video if needed.
+ 
 Additional resources:
  
-Free Alice tutorials: http://www.dickbaldwin.com/tocalice.htm
+* Free Alice tutorials: http://www.dickbaldwin.com/tocalice.htm
 
-Following site has several advanced Alice worlds:
-Adventures in Alice programming @ Duke University http://www.cs.duke.edu/csed/alice/aliceInSchools/
+* This website has several advanced Alice worlds:
+    > [Adventures in Alice programming @ Duke University](http://www.cs.duke.edu/csed/alice/aliceInSchools/)
  
  
