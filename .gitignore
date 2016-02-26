@@ -60,5 +60,13 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
 #Ignore weekly reports
 weekly_reports/*
+
+#Ignore temp files
+*~
+
+# Header files and class files
+.class
+.h
