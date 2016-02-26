@@ -5,7 +5,7 @@ by Dr. Jeyakesavan Veerasamy, CS faculty, University of Texas at Dallas, USA.
 While these materials have been targeted for workshops, they can be used for self-paced learning from your home as well. Just that it can be more enjoyable experience if you have at least one partner to discuss and exchange ideas! This material does not assume any prior experience in programming & it is really meant for absolute beginners! Jump in and enjoy.
  
 Welcome the participants to Alice workshop with this video (turn ON the speakers first):
-Merry Christmas using Alice: http://www.youtube.com/watch?v=5SB-lieOdjo
+https://www.youtube.com/watch?v=-Ig_MIlPQ5M
  
 Item | Description | Material | Duration
 ---- | ---- | ---- | ---- 

@@ -25,7 +25,7 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
  Beginner | Topic
 ----- | -----
  | [Scratch](https://github.com/UTDallasCSO/content/tree/master/scratch)
- | [Alice]()
+ | [Alice](https://github.com/UTDallasCSO/content/tree/master/alice)
  | [JavaScript]()
  | [Java]()
  | [C++]()
