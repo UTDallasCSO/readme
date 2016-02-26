@@ -25,13 +25,13 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
 ### Organization of the repo
 ---
 __Topics__: All topics have their individual folders. Each folder must cover all sorts of CSO camps and activities. The recommended structure is something on the lines of: 
-Topic_name
-|__ Beginner 
-|       |_Content that will span a week (Mainly meant for summer camps)  
-|       |_Weekend/after school coding camps
-| 
-|______ Advanced
-            |__Similar content
+    Topic_name
+    |__ Beginner 
+    |       |_Content that will span a week (Mainly meant for summer camps)  
+    |       |_Weekend/after school coding camps
+    | 
+    |______ Advanced
+                |__Similar content
 
 __Images__: All images used in one particular markdown file will be stored in the images folder with the folder name corresponding to title of the file. _('content' in this case)_
 
