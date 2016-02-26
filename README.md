@@ -4,6 +4,7 @@ _Curated content for all tools and languages and camps taught under the auspices
 ###The whole idea is...
 ----
 ...to have a body of content ready for you, the CS Outreach instructors so that:
+
 1. all participants can have a similar experience
 2. you don't waste any time preparing content everytime you are assigned to a new tool, language or camp.
 3. you can solely focus on the teaching part and not worry about content creation and know what you have to cover for a given camp or session so that you can pace yourself.
