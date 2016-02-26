@@ -1,8 +1,6 @@
 # content
 _Curated content for all tools and languages and camps taught under the auspices of the CS Outreach programs. You can conduct camps upto a week-long using just the material in this repo for the subject assigned to you._
 
-<hr>
-
 ###The whole idea is...
 ----
 ...to have a body of content ready for you, the CS Outreach instructors so that:
@@ -24,6 +22,8 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
 8. You will need to __clone__ this repo by selecting either the Https address or the SSH (depending on your Git setup) ![Where to find this 'clone' address?](/images/content/gitclone.png)
 9. Start making some awesome contributions! :v:
 
+Note: Information about using the markdown format can be found [here](https://blog.ghost.org/markdown/)
+
 ### Organization of the repo
 ---
 * __Topics__: All topics have their individual folders. Each folder must cover all sorts of CSO camps and activities. The recommended structure is something on the lines of: 
@@ -40,25 +40,3 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
 * __Images__: All images used in one particular markdown file will be stored in the `images` folder with the folder name corresponding to title of the file. _('content' in this case)_ The mouseover text should be helpful and meaningful.
 
 * __Code__: All code must similarly go in the `codes` folder with similar restrictions. This will ensure that when questions need to be changed, code de-bugged or any major change made, the change will have to be only made in the code folder. Just basic OOPs principles in practice :wink: 
-
-###Contents
----
- Beginner | Topic
------ | -----
- | [Scratch](https://github.com/UTDallasCSO/content/tree/master/scratch)
- | [Alice](https://github.com/UTDallasCSO/content/tree/master/alice)
- | [JavaScript]()
- | [Java]()
- | [C++]()
- 
- Intermediate | Topic 
- ----- | -----
- | [C++]()
- | [Java]()
- | [JavaScript]()
-
-Advanced | Topic
- ----- | -----
- | [C++]()
- | [Java]()
- | [Javascript]()
