@@ -20,7 +20,7 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
 6. Now you are finally ready to submit pull requests and make some contributions!
 7. Head over to the [content repo](github.com/utdallascso/content)
 8. You will need to __clone__ this repo by selecting either the Https address or the SSH (depending on your Git setup) ![Where to find this 'clone' address?](/images/content/gitclone.png)
-9. Start making some awesome contributions! :v:
+9. Start making some awesome [contributions](https://www.atlassian.com/git/tutorials/making-a-pull-request/)! :v:
 
 Note: Information about using the markdown format can be found [here](https://blog.ghost.org/markdown/)
 
@@ -39,4 +39,4 @@ Note: Information about using the markdown format can be found [here](https://bl
 
 * __Images__: All images used in one particular markdown file will be stored in the `images` folder with the folder name corresponding to title of the file. _('content' in this case)_ The mouseover text should be helpful and meaningful.
 
-* __Code__: All code must similarly go in the `codes` folder with similar restrictions. This will ensure that when questions need to be changed, code de-bugged or any major change made, the change will have to be only made in the code folder. Just basic OOPs principles in practice :wink: 
+* __Code__: All code must similarly go in the `codes` folder with similar restrictions. This is important for topics like Java, Javascript and C++. As programs get bigger, the Readme.md files get unwieldy. This setup will ensure that when questions need to be changed, code de-bugged or any major change made, the change will have to be only made in the code folder. Just basic OOPs principles in practice :wink: 
