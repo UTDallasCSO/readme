@@ -1,6 +1,6 @@
 [Virtual hands-on workshop : “Enjoyable Introduction to Programming using  Drawings”](http://www.utdallas.edu/~veerasam/kajs/virutal_workshop.docx)  by Dr. Jeyakesavan Veerasamy, CS faculty,
 University of Texas at Dallas, USA.
-====
+<hr>
 _While these materials have been targeted for workshops, they can certainly be used for self-paced learning from your home as well. Just that it can be more enjoyable experience if you have at least a partner to discuss and exchange ideas! Some background in programming concepts will enable you to enjoy the material – so I recommend you to complete Alice workshop first._
 
 * Start the workshop with one of the shows in following directory – click on any showX.html (press F11 and go full-screen for the full effect!): http://www.utdallas.edu/~jeyv/KAJS/shows
