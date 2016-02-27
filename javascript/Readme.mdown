@@ -8,7 +8,7 @@ _While these materials have been targeted for workshops, they can certainly be u
 * Math is beautiful :-) You will understand the code behind these images in this workshop, then you can write your own code & generate your own dazzling images!
 
 Description | Materials/Images
-===== | ==== 
+---- | ---- 
 KhanAcademy-JavaScript installation and lab setup – There is no software to download and install, since JavaScript is interpreted by the browser. Mozilla Firefox is the officially “tested” browser – Google Chrome may work too, but it is not fully tested for the examples given below. We need Internet connection to access Khan Academy site just to get started, then we can work locally as long as you don’t click on Khan Academy examples. | 
 Why does it make sense to go through this Drawings workshop? (Why not learn C/C++/Java directly?) | [PPT](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pptx)/[PDF](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pdf)
 
