@@ -60,7 +60,7 @@ Assignment | Topic | Materials
 28. | Generate Texas Lotto numbers – we need to generate 6 unique numbers between 1 and 50. You can use the following code to output the values: textSize(40); text(value, x, y); Does your program scale up easily if we want to generate 20 unique numbers between 1 and 1000. That is why, we like to write the code as generic as possible – so that future modifications/expansions will be as easy as possible.
 29. | Paddle ball game using 2 balls. | ![images1](http://www.utdallas.edu/~veerasam/kajs/index_files/image104.jpg)
 30. | How long can you keep the balls in the air? Press on each air-blower to push the ball up! Game ends whenever any ball touches the air-blower. If possible, do realistic ball movements - change the gravity settings and see the effect! | ![images](http://www.utdallas.edu/~veerasam/kajs/index_files/image106.jpg)
-31. “Hit-the-heads” game: Images randomly replace circles which are arranged in matrix format. Score should reflect the user’s response speed, negative points for clicking on circles. Read the documentation on image(myImage, x, y); www.khanacademy.org/cs/imageimage-x-y/937672662
+31. | “Hit-the-heads” game: Images randomly replace circles which are arranged in matrix format. Score should reflect the user’s response speed, negative points for clicking on circles. Read the documentation on image(myImage, x, y); www.khanacademy.org/cs/imageimage-x-y/937672662
 32. | Implement the memory game.
 33. | Implement Connect4 game.
 
