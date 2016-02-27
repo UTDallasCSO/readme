@@ -16,6 +16,7 @@ Core programming concepts – Sequence, selection and repetition are 3 pillars o
 Introduction to KhanAcademy-JavaScript environment – www.khanacademy.org/cs - Visual Programming – free-form typing – you can see the output immediately or with one-click. | ![Intro1](http://www.utdallas.edu/~veerasam/kajs/index_files/image002.jpg) ![Intro2](http://www.utdallas.edu/~veerasam/kajs/index_files/image002.jpg)
 Fun with examples: Click on All Programs or click here www.khanacademy.org/cs/browse/all-programs to go there directly. Scroll down and click on a few interest ones and have fun! After completing this workshop, you can generate similar or even better images! | 
 Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under first 2 headings: Intro to programming Drawing basics |
+
 Assignment | Topic | Materials
 ---- | ---- | ----
 Assignment 1: | Draw a nice house! | Documentation: Click on Documentation or click here www.khanacademy.org/cs/docs  & processingjs.org/reference. Each API comes with a sample usage too.
