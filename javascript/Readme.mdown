@@ -19,9 +19,13 @@ Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed
 
 Assignment | Topic | Materials
 ---- | ---- | ----
-Assignment 1: | Draw a nice house! | Documentation: Click on Documentation or click here www.khanacademy.org/cs/docs  & processingjs.org/reference. Each API comes with a sample usage too.
+1: | Draw a nice house! | Documentation: Click on Documentation or click here www.khanacademy.org/cs/docs  & processingjs.org/reference. Each API comes with a sample usage too.
  | Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under Coloring Video: Draw a ellipse with random size & random color! Documentation: [random()](http://www.khanacademy.org/cs/randomlow-high/827911487) | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); ellipse(random(0,400), random(0,400), random(0,100), random(0,100));`
  | You can comment out individual lines with // and multiple lines with /* ... */
  | Also, what happens if these lines are out of order? Try it! | 
   | How to restrict to circles? See the power of variable! | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); var diameter = random(0,100); ellipse(random(0,400), random(0,400), diameter, diameter);`
   | Alternate way to draw the circle! | `stroke(random(0,255),random(0,255), random(0,255));strokeWeight(random(0,100)); point(random(0,400), random(0,400));`
+2: | Add a random square! Unlike ellipse(), x and y parameters in rect() indicate the top, left corner. | 
+ | make the circle appear fully inside the canvas area. In other words, we want to ensure that the circles are never cut off at the edges. Idea is to push the circle in if it is too close to the boundaries. Realize the power of IF statements! | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); var dia = random(0,200); var x = random(0,400);  var y = random(0,400); var rad = dia / 2; if (x < rad) {x = rad;} if (x > 400 - rad) { x = 400 - rad;} if (y < rad) { y = rad; }if (y > 400 - rad) {y = 400 - rad;} ellipse(x, y, dia, dia);`
+ | Extra: What are the code changes if you want to do the same for ellipses? Alternate approach: Both Software Engineering perfectionists and Mathematicians make like the following one better! Why? | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); var dia = random(0,200); var rad = dia / 2; var x = random(rad,400-rad); var y = random(rad,400-rad); ellipse(x, y, dia, dia);`
+ 
