@@ -58,6 +58,11 @@ Assignment | Topic | Materials
 26. | `strokeWeight(2); translate(200,200); point(0,0); var sz = 1; var len = 10; var angle = 10; var draw = function() { rotate(angle*180/PI); fill(random(0,255), random(0,255), random(0,255)); ellipse(len, 0, sz % 10 + 10, sz % 10 + 5); angle++; len++; sz += 1; };` Following variation shows endless collection of coins! Use strokeWeight(2) instead of noStroke() to see another interesting effect. `translate(200,200); var sz = 1; noStroke(); var drawPebbles = function(x) { var len = 10; rotate(x); for(var i=0 ; i<500;i++) { rotate(1); fill(random(0,255), random(0,255), random(0,255)); ellipse(len, 0, sz % 10 + 10, sz % 10 + 5); len++; sz += 1; } }; var x = 1; var draw = function() { x++; drawPebbles(x); };` | ![stars](http://www.utdallas.edu/~veerasam/kajs/index_files/image102.jpg)
 27. | Multiple balls bouncing off all 4 walls. Let us use different color for each ball. That means, we need to remember the colors. That is where arrays come in. Here is sample code to use arrays – it generates and stores 10 random colors, then randomly selects one color from that list. `var colors = []; for(var i=0; i<10 ; i++) { colors.push(color(random(0,255),random(0,255), random(0,255))); } fill(colors[random(0,10)]);` Extra: For more complexity, balls can bounce off each other too! But which direction each ball should go?
 28. | Generate Texas Lotto numbers – we need to generate 6 unique numbers between 1 and 50. You can use the following code to output the values: textSize(40); text(value, x, y); Does your program scale up easily if we want to generate 20 unique numbers between 1 and 1000. That is why, we like to write the code as generic as possible – so that future modifications/expansions will be as easy as possible.
-29. | 
+29. | Paddle ball game using 2 balls. | ![images1](http://www.utdallas.edu/~veerasam/kajs/index_files/image104.jpg)
+30. | How long can you keep the balls in the air? Press on each air-blower to push the ball up! Game ends whenever any ball touches the air-blower. If possible, do realistic ball movements - change the gravity settings and see the effect! | ![images](http://www.utdallas.edu/~veerasam/kajs/index_files/image106.jpg)
+31. “Hit-the-heads” game: Images randomly replace circles which are arranged in matrix format. Score should reflect the user’s response speed, negative points for clicking on circles. Read the documentation on image(myImage, x, y); www.khanacademy.org/cs/imageimage-x-y/937672662
+32. | Implement the memory game.
+33. | Implement Connect4 game.
+
 
 
