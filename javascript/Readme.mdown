@@ -18,8 +18,7 @@ Fun with examples: Click on All Programs or click here www.khanacademy.org/cs/br
 Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under first 2 headings: Intro to programming Drawing basics | 
 Assignment 1: Draw a nice house! | Documentation: Click on Documentation or click here www.khanacademy.org/cs/docs  & processingjs.org/reference. Each API comes with a sample usage too.
 Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under Coloring Video: Draw a ellipse with random size & random color! Documentation: [random()](http://www.khanacademy.org/cs/randomlow-high/827911487) | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); ellipse(random(0,400), random(0,400), random(0,100), random(0,100));`
-
 You can comment out individual lines with // and multiple lines with /* ... */
-Also, what happens if these lines are out of order? Try it! How to restrict to circles? | 
+Also, what happens if these lines are out of order? Try it! How to restrict to circles?
 See the power of variable! | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); var diameter = random(0,100); ellipse(random(0,400), random(0,400), diameter, diameter);`
 Alternate way to draw the circle! | `stroke(random(0,255),random(0,255), random(0,255));strokeWeight(random(0,100)); point(random(0,400), random(0,400));`
