@@ -11,4 +11,34 @@ Description | Materials/Images
 ---- | ---- 
 KhanAcademy-JavaScript installation and lab setup – There is no software to download and install, since JavaScript is interpreted by the browser. Mozilla Firefox is the officially “tested” browser – Google Chrome may work too, but it is not fully tested for the examples given below. We need Internet connection to access Khan Academy site just to get started, then we can work locally as long as you don’t click on Khan Academy examples. | 
 Why does it make sense to go through this Drawings workshop? (Why not learn C/C++/Java directly?) | [PPT](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pptx)/[PDF](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pdf)
-
+Welcome to Drawings workshop! Here are a few suggestions to get the maximum value from this workshop. We will cycle through 3 modes for each topic/example: Watching, Doing it individually, helping each other to complete and work on something extra. You can use www.online-stopwatch.com to make sure that the workshop is progressing in timely manner. |
+Core programming concepts – Sequence, selection and repetition are 3 pillars of programming! | [Flash](http://www.utdallas.edu/~veerasam/kajs/programming_basics.swf)/[YouTube](http://www.youtube.com/watch?v=Ww7UJCUm9IE), [PPT](http://www.utdallas.edu/~veerasam/kajs/Programming_Basics.PPTX)/[PDF](http://www.utdallas.edu/~veerasam/kajs/Programming_Basics.pdf)
+Introduction to KhanAcademy-JavaScript environment – www.khanacademy.org/cs - Visual Programming – free-form typing – you can see the output immediately or with one-click. | ![Intro1](http://www.utdallas.edu/~veerasam/kajs/index_files/image002.jpg) ![Intro2](http://www.utdallas.edu/~veerasam/kajs/index_files/image002.jpg)
+Fun with examples: Click on All Programs or click here www.khanacademy.org/cs/browse/all-programs to go there directly. Scroll down and click on a few interest ones and have fun! After completing this workshop, you can generate similar or even better images!
+Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under first 2 headings: Intro to programming Drawing basics | 
+Assignment 1: Draw a nice house!
+Documentation: Click on Documentation or click here www.khanacademy.org/cs/docs  & processingjs.org/reference. Each API comes with a sample usage too.
+Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under Coloring
+Video: Draw a ellipse with random size & random color!
+Documentation: [random()](http://www.khanacademy.org/cs/randomlow-high/827911487) 
+``` javascript
+noStroke();
+fill(random(0,255),random(0,255), random(0,255));
+ellipse(random(0,400), random(0,400), random(0,100), random(0,100));
+``` 
+You can comment out individual lines with // and multiple lines with /* ... */
+Also, what happens if these lines are out of order? Try it!
+ 
+How to restrict to circles? See the power of variable!
+```javascript 
+noStroke();
+fill(random(0,255),random(0,255), random(0,255));
+var diameter = random(0,100);
+ellipse(random(0,400), random(0,400), diameter, diameter);
+```
+Alternate way to draw the circle!
+```javascript
+stroke(random(0,255),random(0,255), random(0,255));
+strokeWeight(random(0,100));
+point(random(0,400), random(0,400));
+``` | ![shapes](http://www.utdallas.edu/~veerasam/kajs/index_files/image008.jpg)
