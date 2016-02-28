@@ -64,5 +64,81 @@ Assignment | Topic | Materials
 32. | Implement the memory game.
 33. | Implement Connect4 game.
 
+####Additional resources:
+* Khan Academy JavaScript documentation: www.khanacademy.org/cs/docs
+* Processing.js documentation: processingjs.org/reference
+* Sketchpad CC IDE: sketchpad.cc
+* OpenProcessing IDE: www.openprocessing.org/sketch/create
+* Processing examples: processing.org/examples
 
-
+####A few advanced examples (mostly Recursion):
+```javascript
+var depth = 4;
+var length = 200;
+var factors = [1/3, 1/3, 1/3, 1/3, 1/3];
+var turns = [-90, 90, 90, -90, 0];
+var copies = 4;
+var angle = 90;
+ 
+var fractal = function(level, length) {
+ 
+    if (level < 1) {
+        line(0,0,length,0);
+        translate(length,0);
+    } else {
+        line(0,0,length,0);
+        for(var i = 0 ; i < factors.length ; i++) {
+            fractal(level-1, length * factors[i]);
+            rotate(turns[i]);
+        }
+    }
+};
+ 
+angleMode="degrees";
+translate(200-length/2, 200-length/2);
+ 
+for(var i=0 ; i<copies ; i++) {
+  fractal(depth,length);
+  rotate(angle); 
+}
+ 
+rotate(90);
+for(var i=0 ; i<copies ; i++) {
+  fractal(depth,length);
+  rotate(-angle); 
+}
+```
+####Koch Curve & Snowflake
+https://www.khanacademy.org/cs/koch-curve-using-arrays/5909184489979904
+Code | Output
+---|---
+```javascript
+var depth = 5;
+var length = 325;
+var factors = [1/3, 1/3, 1/3, 1/3];
+var turns = [-60, 120, -60, 0];
+var copies = 3;
+var angle = 120;
+ 
+var fractal = function(level, length) {
+ 
+    if (level < 1) {
+        line(0,0,length,0);
+        translate(length,0);
+    } else {
+        //line(0,0,length,0);
+        for(var i = 0 ; i < factors.length ; i++) {
+            fractal(level-1, length * factors[i]);
+            rotate(turns[i]);
+        }
+    }
+};
+ 
+angleMode="degrees";
+translate(200-length/2, 200-length/3.5);
+ 
+for(var i=0 ; i<copies ; i++) {
+  fractal(depth,length);
+  rotate(angle); 
+}
+``` | ![Snowflake1](http://www.utdallas.edu/~veerasam/kajs/index_files/image108.jpg)
