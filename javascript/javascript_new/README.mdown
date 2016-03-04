@@ -10,7 +10,7 @@ Follow these steps to get the maximum value out of the workshop:
 All the tutorials are under www.khanacademy.org/cs/programming :
  
 
-Tutorials/Lessons | 
+Tutorials/Lessons | Excercises
 ---|---
 Session 0: Core Programming Concepts - Sequence, selection and repetition are 3 pillars of programming! | [Flash](http://www.utdallas.edu/Alice/programming_basics.swf)/[YouTube](http://www.youtube.com/watch?v=Ww7UJCUm9IE),[PPT](http://www.utdallas.edu/Alice/Programming_Basics.PPTX)/[PDF](http://www.utdallas.edu/Alice/Programming_Basics.PPTX)
 
