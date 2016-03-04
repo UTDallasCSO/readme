@@ -4,23 +4,23 @@ University of Texas at Dallas, USA.
  
 Follow these steps to get the maximum value out of the workshop:
 -      Review the tutorials provided by Khan Academy
--      Try to do the exercises on your own.
+-      Try to do the  on your own.
 -      Review the solution videos to help you complete or to see how I completed them.
  
 All the tutorials are under www.khanacademy.org/cs/programming :
  
 Session 0:
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Core Programming Concepts - Sequence, selection and repetition are 3 pillars of programming! | [Flash]()/[YouTube](),[PPT]()/[PDF]()
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
-Session 1: Introduction khanacademy.org/cs/programming/intro-to-programming: Watch these 2 tutorials. khanacademy.org/cs/programming/drawing-basics: Watch these 2 tutorials. Challenges are simple exercises for you to complete along the way - hint is displayed at every step – complete them too. | Go to main page khanacademy.org/cs and click on this direct link to start: www.khanacademy.org/cs/new 1. Now, let your creativity run wild and create interesting drawings using a series of rect(), ellipse() and line() functions! Feel free to use these drawings as starters to kick-start your creativity! No need to draw exactly these… 2. Click here to learn to draw a triangle too. Here are a few interesting drawings using triangles 3. Now, draw a nice house using all the functions we have covered so far. 
+Session 1: Introduction khanacademy.org/cs/programming/intro-to-programming: Watch these 2 tutorials. khanacademy.org/cs/programming/drawing-basics: Watch these 2 tutorials. Challenges are simple  for you to complete along the way - hint is displayed at every step – complete them too. | Go to main page khanacademy.org/cs and click on this direct link to start: www.khanacademy.org/cs/new 1. Now, let your creativity run wild and create interesting drawings using a series of rect(), ellipse() and line() functions! Feel free to use these drawings as starters to kick-start your creativity! No need to draw exactly these… 2. Click here to learn to draw a triangle too. Here are a few interesting drawings using triangles 3. Now, draw a nice house using all the functions we have covered so far. 
 www.khanacademy.org/cs/programming/coloring: Complete the tutorials and challenges to learn about colors. Final item is a project and it is quite open-ended – keep it simple and enjoy the experience! | Welcome to the colorful world! You can go back and add colors to the drawings we did earlier! 1. Random numbers play an important role in gaming and security. For example, random(0, 400) will generate a random number between 0 and 400. Look at the following one line of code: ellipse(200, 200, random(0,400), random(0,400)); As you can see, it is ok to use the result of a function as a parameter in another function. OK, what will this line do? Think about it for a minute before testing it out! Then, enhance it to draw a random ellipse in a random color at a random location (it is ok if it is sliced off). 2. By default, all enclosed shapes (ellipse, rectange, triangle, etc.) are filled with white color. There is another in-built function noFill() that enables us to draw the shape without any fill. For example, here is triangle based drawing shown in the previous section, with noFill() at the top. Note that noFill() will be effective until fill() is invoked again. Use your creativity and draw a picture of your own mixing noFill() and fill() along the way 3. Redraw your house with colors! Submit this one as Week 1 assignment.
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Session 2: Variables
 khanacademy.org/cs/programming/variables We learned to draw random ellipses in the previous section. How to restrict to circles? See the power of variable!
@@ -29,16 +29,16 @@ How will you draw a random square instead of ellipse? Note: Unlike ellipse(), x 
 var x1 = 200;var y1 = 50;var x2 = 50;var y2 = 300;var x3 = 350;var y3 = 300; 
 triangle(x1, y1, x2, y2, x3, y3);//adjust the values of few variables y1 += 10; x3 -= 9; y3 -= 5; triangle(x1, y1, x2, y2, x3, y3); //copy & paste these 4 lines lots of times to get the following: Now that we know how to add colors, make this drawing to look similar to this one using random colors: We can also make fill() color a function of variables like fill(y1*2, (350-x3) * 2, (y3-200) * 2); to make the color change smoothly. How does this work? Utilizing the power of variables & the beauty of colors, create your own artistic creation. We will use this as Week 2 assignment.
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Session 3: Animation basics khanacademy.org/cs/programming/animation-basics: Animation basics – exciting stuff! Mouse Interaction tutorial seems messed up – use this one instead: mouseinteraction.swf Take the code for “Exploding Sun”. In addition to making the sun bigger, let it rise slowly too. Then, reverse the size – start with a big sun and reduce the size as the sun rises to the sky. Use the power of docs to learn about Math functions sin() and cos(). Instead of a ball moving left to right, move it around in circular fashion. Compute x and y position with the following equations: var x = 100 * sin(angle); var y = 100 * cos(angle); In the project Crazy Painter, following discrepancy creates uneven distribution of colors: Each color component’s range is 0 to 255, while mouseX and mouseY goes from 0 to 399. Use an equation to map the mouse position to color better. Enhance the project Crazy Painter by using Math expressions to change the colors. You can also utilize random() to add some spice J Here is an example: fill(mouseX, random(100,200), mouseY/2); You can also use a counter variable and increment it within draw() function and use it in fill(). That will enable you to change color over time!
 Combine this counter based color change idea with ball moving in circular fashion. Use modulo operator to reset the color values if needed. var counter; counter++; counter = counter % 256; use 3 different variables and increment bit differently for each one to get full range of colors! Submit this code as Week 3 assignment.
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Session 4: Text & Strings, Functions https://www.khanacademy.org/computing/cs/programming/text-basics  https://www.khanacademy.org/computing/cs/programming/functions Following program was used to generate the image below using mouse: var px, py; var mousePressed = function() { px = mouseX; py = mouseY; stroke(random(0,255), random(0,255), random(0,255)); }; var mouseDragged = function() {line(px, py, mouseX, mouseY);}; Modify the code to -      draw circles, -      ellipses using move events. Use a function to a complex object (in other words, it should require a few lines code!) Utilize mouse related APIs to draw it at mouse location whenever mouse is clicked. Submit this as Assignment 4.
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Session 5: Logic and if Statements This version is bit slow compared to loops, but nice to see, right? var sz = 50; var limit = 400; translate(200,200);
 var draw = function() { ellipse(0,0,sz,sz); sz += 5; if (sz > limit) {sz = 50; limit -= 25;}}; Same using squares:
@@ -171,7 +171,7 @@ n = 10:
  
 Extra: How to draw circles in diamond formation? Middle row should have n circles, adjacent rows should have (n-2) circles, their adjacent rows should have (n-4) circles, so on. Top and bottom rows should have only 1 or 2 circles in the middle.
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Session 7: translate(), rotate() and scale() functions
  
@@ -401,7 +401,7 @@ translate(0,100);
 drawCar();
  
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 
 Session 8: Recursion!
@@ -546,13 +546,13 @@ textSize(40);
 fill(0,0,0);
 text(score,150,395);
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Session 9: Arrays
  
 Based on the knowledge you gained from the tutorials, write a program to output Texas Lotto numbers. You need to output 6 numbers - each number should be between 1 and 50 and the numbers should not be repeated. Submit this one as Assignment 9.
 
-Tutorials/Lessons | Exercises
+Tutorials/Lessons | 
 ---|---
 Session 9: Objects
 Browse and find your favorite game/program in Khan Academy and make a few modifications (write a short description about your changes as comments at the top of the program) and submit it as Assignment 10.
