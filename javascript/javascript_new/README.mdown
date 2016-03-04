@@ -1,7 +1,5 @@
-Enjoyable Introduction to Programming using Drawings
-
+__Enjoyable Introduction to Programming using Drawings__
 by Dr. Jeyakesavan Veerasamy, CS faculty,
-
 University of Texas at Dallas, USA.
  
 Follow these steps to get the maximum value out of the workshop:
@@ -9,57 +7,23 @@ Follow these steps to get the maximum value out of the workshop:
 -      Try to do the exercises on your own.
 -      Review the solution videos to help you complete or to see how I completed them.
  
-All the tutorials are under www.khanacademy.org/cs/programming:
+All the tutorials are under www.khanacademy.org/cs/programming :
  
-Tutorials/Lessons
-Exercises
-Session 0: Core Programming Concepts - Sequence, selection and repetition are 3 pillars of programming! Flash/YouTube,PPT
-/PDF
- 
- 
-Session 1: Introduction
- 
-khanacademy.org/cs/programming/intro-to-programming: Watch these 2 tutorials.
+Session 0:
 
- 
-khanacademy.org/cs/programming/drawing-basics: Watch these 2 tutorials. Challenges are simple exercises for you to complete along the way - hint is displayed at every step – complete them too.
+Tutorials/Lessons | Exercises
+---|---
+Core Programming Concepts - Sequence, selection and repetition are 3 pillars of programming! | [Flash]()/[YouTube](),[PPT]()
+/[PDF]()
 
- 
-Go to main page khanacademy.org/cs and click on
+Tutorials/Lessons | Exercises
+---|---
+Session 1: Introduction khanacademy.org/cs/programming/intro-to-programming: Watch these 2 tutorials. khanacademy.org/cs/programming/drawing-basics: Watch these 2 tutorials. Challenges are simple exercises for you to complete along the way - hint is displayed at every step – complete them too. | Go to main page khanacademy.org/cs and click on this direct link to start: www.khanacademy.org/cs/new 1. Now, let your creativity run wild and create interesting drawings using a series of rect(), ellipse() and line() functions! Feel free to use these drawings as starters to kick-start your creativity! No need to draw exactly these… 2. Click here to learn to draw a triangle too. Here are a few interesting drawings using triangles 3. Now, draw a nice house using all the functions we have covered so far. 
+www.khanacademy.org/cs/programming/coloring: Complete the tutorials and challenges to learn about colors. Final item is a project and it is quite open-ended – keep it simple and enjoy the experience! | Welcome to the colorful world! You can go back and add colors to the drawings we did earlier! 1. Random numbers play an important role in gaming and security. For example, random(0, 400) will generate a random number between 0 and 400. Look at the following one line of code: ellipse(200, 200, random(0,400), random(0,400)); 
+As you can see, it is ok to use the result of a function as a parameter in another function. OK, what will this line do? Think about it for a minute before testing it out! Then, enhance it to draw a random ellipse in a random color at a random location (it is ok if it is sliced off). 2. By default, all enclosed shapes (ellipse, rectange, triangle, etc.) are filled with white color. There is another in-built function noFill() that enables us to draw the shape without any fill. For example, here is triangle based drawing shown in the previous section, with noFill() at the top. Note that noFill() will be effective until fill() is invoked again. Use your creativity and draw a picture of your own mixing noFill() and fill() along the way 3. Redraw your house with colors! Submit this one as Week 1 assignment.
 
-Or click on this direct link to start:
-khanacademy.org/cs/new
- 
-1. Now, let your creativity run wild and create interesting drawings using a series of rect(), ellipse() and line() functions!
- 
-Feel free to use these drawings as starters to kick-start your creativity! No need to draw exactly these…
- 
- 
-  
- 
-2. Click here to learn to draw a triangle too. Here are a few interesting drawings using triangles:
- 
- 
- 
-3. Now, draw a nice house using all the functions we have covered so far.
- 
-khanacademy.org/cs/programming/coloring: Complete the tutorials and challenges to learn about colors. Final item is a project and it is quite open-ended – keep it simple and enjoy the experience!
- 
-
-Welcome to the colorful world! You can go back and add colors to the drawings we did earlier!
- 
-1. Random numbers play an important role in gaming and security. For example, random(0, 400) will generate a random number between 0 and 400. Look at the following one line of code:
-ellipse(200, 200, random(0,400), random(0,400));
- 
-As you can see, it is ok to use the result of a function as a parameter in another function. OK, what will this line do? Think about it for a minute before testing it out! Then, enhance it to draw a random ellipse in a random color at a random location (it is ok if it is sliced off).
- 
-2. By default, all enclosed shapes (ellipse, rectange, triangle, etc.) are filled with white color. There is another in-built function noFill() that enables us to draw the shape without any fill. For example, here is triangle based drawing shown in the previous section, with noFill() at the top.
- 
-
-Note that noFill() will be effective until fill() is invoked again. Use your creativity and draw a picture of your own mixing noFill() and fill() along the way.
- 
-3. Redraw your house with colors! Submit this one as Week 1 assignment.
- 
+Tutorials/Lessons | Exercises
+---|---
 Session 2: Variables
  
 khanacademy.org/cs/programming/variables:
@@ -108,7 +72,10 @@ fill(y1*2, (350-x3) * 2, (y3-200) * 2);
 to make the color change smoothly. How does this work?
 
 Utilizing the power of variables & the beauty of colors, create your own artistic creation. We will use this as Week 2 assignment.
- 
+
+Tutorials/Lessons | Exercises
+---|---
+
 Session 3: Animation basics
  
 khanacademy.org/cs/programming/animation-basics: Animation basics – exciting stuff!
@@ -170,7 +137,9 @@ Modify the code to
        
  
 Use a function to a complex object (in other words, it should require a few lines code!) Utilize mouse related APIs to draw it at mouse location whenever mouse is clicked. Submit this as Assignment 4.
- 
+
+Tutorials/Lessons | Exercises
+---|---
 Session 5: Logic and if Statements
 
  
@@ -347,7 +316,9 @@ n = 10:
 
  
 Extra: How to draw circles in diamond formation? Middle row should have n circles, adjacent rows should have (n-2) circles, their adjacent rows should have (n-4) circles, so on. Top and bottom rows should have only 1 or 2 circles in the middle.
- 
+
+Tutorials/Lessons | Exercises
+---|---
 Session 7: translate(), rotate() and scale() functions
  
 Play time! Use these code segments individually to learn about the behavior of translate(), rotate() and scale() – replace A,B,C and D with various values and try to understand the results!
@@ -553,9 +524,7 @@ var n = 12;
 for(var i=0; i<n ; i++) {   
         rotate(360/n);
         drawRacket();
-}
- 
- 
+} 
 
 Circle of cars - make them face each other as shown below. Hint: scale(-1,1) can make it reflect across y axis. Here is the start-up code to draw one car! Complete this exercise and submit it as Assignment 7.
  
@@ -578,6 +547,8 @@ translate(0,100);
 drawCar();
  
 
+Tutorials/Lessons | Exercises
+---|---
 
 Session 8: Recursion!
  
@@ -708,13 +679,7 @@ Hypnoswirl: http://www.khanacademy.org/cs/hypnoswirl/826002294
  
 Make the necessary changes to make your drawing close to each one of these.
 
- 
-
-
-
 Paddle ball: http://www.khanacademy.org/cs/paddle-ball/830543654
- 
-
  
 Make the ball pick-up speed every time when it hits the paddle.
  
@@ -727,20 +692,15 @@ textSize(40);
 fill(0,0,0);
 text(score,150,395);
 
- 
-
- 
-
+Tutorials/Lessons | Exercises
+---|---
 Session 9: Arrays
  
- 
-
- 
 Based on the knowledge you gained from the tutorials, write a program to output Texas Lotto numbers. You need to output 6 numbers - each number should be between 1 and 50 and the numbers should not be repeated. Submit this one as Assignment 9.
-Session 9: Objects
- 
 
- 
+Tutorials/Lessons | Exercises
+---|---
+Session 9: Objects
 Browse and find your favorite game/program in Khan Academy and make a few modifications (write a short description about your changes as comments at the top of the program) and submit it as Assignment 10.
  
 Few more games/programs:
@@ -760,5 +720,3 @@ Additional resources:
 ·         Sketchpad CC IDE: sketchpad.cc
 ·         OpenProcessing IDE: www.openprocessing.org/sketch/create
 ·         Processing examples: processing.org/examples
- 
- 
