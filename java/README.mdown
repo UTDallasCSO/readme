@@ -5,7 +5,7 @@
 2. [Java Environment]()
 3. [Hello World]()
 4. [Java fundamentals]()
-5. [Introducing variables, premitive data types and Operators]()
+5. [Introducing variables, primitive data types and Operators]()
 6. [Program Control Statements]()
 7. [Introducing Classes, Objects and Methods]()
 8. [More Data Types and Operators]()
