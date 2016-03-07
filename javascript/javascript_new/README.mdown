@@ -34,10 +34,10 @@ Sequence, selection and repetition are 3 pillars of programming!
 ---
 
 ##### __Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming: 
-Watch these 2 tutorials. ![Intro](http://www.utdallas.edu/Alice/Programming_Basics.pdf) 
+Watch these 2 tutorials. [Intro](http://www.utdallas.edu/Alice/Programming_Basics.pdf) 
 [Drawing Basics](khanacademy.org/cs/programming/drawing-basics)
 
-[image1](http://www.utdallas.edu/~veerasam/js/index_files/image002.jpg) 
+![image1](http://www.utdallas.edu/~veerasam/js/index_files/image002.jpg) 
 
 Challenges are simple  for you to complete along the way - hint is displayed at every step – complete them too. 
 
