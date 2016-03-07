@@ -9,6 +9,24 @@ Follow these steps to get the maximum value out of the workshop:
  
 All the tutorials are under [this](www.khanacademy.org/cs/programming) :
 
+<!-- MarkdownTOC depth=5 -->
+
+- __Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming:
+-  __Session 2:__ Variable
+-  __Session 3:__ Animation basics khanacademy.org/cs/programming/animation-basics:
+-  __Session 4:__ Text & Strings, Functions
+-  __Session 5:__ Logic and if Statements This version is bit slow compared to loops, but nice to see, right?
+-  __Power of Creativity:__
+-  __Session 6: Loops__
+-  __Session 7:__ translate(), rotate() and scale() functions
+-  __Session 9: Arrays__
+-  __Session 10: Objects__
+-  Additional resources:
+
+<!-- /MarkdownTOC -->
+
+
+
 ###### __Session 0:__ Core Programming Concepts
 Sequence, selection and repetition are 3 pillars of programming!
 [Flash](http://www.utdallas.edu/Alice/programming_basics.swf)/[YouTube](http://www.youtube.com/watch?v=Ww7UJCUm9IE),[PPT](http://www.utdallas.edu/Alice/Programming_Basics.PPTX)/[PDF](http://www.utdallas.edu/Alice/Programming_Basics.PPTX)
@@ -16,7 +34,7 @@ Sequence, selection and repetition are 3 pillars of programming!
 ---
 
 ##### __Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming: 
-Watch these 2 tutorials. [Intro](http://www.utdallas.edu/Alice/Programming_Basics.pdf) 
+Watch these 2 tutorials. ![Intro](http://www.utdallas.edu/Alice/Programming_Basics.pdf) 
 [Drawing Basics](khanacademy.org/cs/programming/drawing-basics)
 
 [image1](http://www.utdallas.edu/~veerasam/js/index_files/image002.jpg) 
