@@ -12,7 +12,7 @@ All the tutorials are under [this](www.khanacademy.org/cs/programming) :
 <!-- MarkdownTOC depth=5 -->
 
 - __Session 0:__ Core Programming Concepts
-- __Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming:
+- [__Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming:](#session-1-introduction-khanacademyorgcsprogrammingintro-to-programming)
 -  __Session 2:__ Variable
 -  __Session 3:__ Animation basics khanacademy.org/cs/programming/animation-basics:
 -  __Session 4:__ Text & Strings, Functions
