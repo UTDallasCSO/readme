@@ -87,7 +87,7 @@ Connect Pi directly using the LAN port on your PC follow the second instruction 
 
 ===
 
-1. Python Installation Guide
+* Python Installation Guide
 
 ```bash
 sudo apt-get install python-dev
@@ -97,7 +97,7 @@ sudo pip install RPi.GPIO
 sudo -i(To become a super user)
 ```
 
-2. Setting Up VNC Server
+* Setting Up VNC Server
 
 ```bash
 sudo apt-get install tightvncserver
@@ -111,7 +111,7 @@ The above needs to be done for the first time
 Then afterwards just open putty and type the tightvncserver to start 
 hosting the vnc server in raspberr-pi later
 
-3. To update the OS
+* To update the OS
 
 ```bash
 sudo apt-get update
@@ -120,7 +120,7 @@ sudo rpi-update
 ```
 
 
-4. To stream videos
+* To stream videos
 
 To take still pictures:
 `raspi-config`
@@ -141,12 +141,12 @@ sudo apt-get install mplayer netcat
 raspivid -t 999999 -o - | nc "IPAddress of windows machines" 5005
 ```
  
-5. To do time lapse
+* To do time lapse
 
 Timelapse:
 `raspstill -o timelapse%04d.jpg -t 5 -tl 1000`
 
-6. Camera and GPIO
+* Camera and GPIO
 
 https://www.youtube.com/watch?v=KM4n2OtwGl0
 https://www.youtube.com/watch?v=q_NvDTZIaS4&feature=youtu.be
@@ -160,7 +160,7 @@ http://learn.adafruit.com/downloads/pdf/adafruits-raspberry-pi-lesson-4-gpio-set
 https://www.raspberrypi.org/documentation/usage/gpio/
 http://www.pyimagesearch.com/2015/02/23/install-opencv-and-python-on-your-raspberry-pi-2-and-b/
 
-7. Video Links to all programs
+* Video Links to all programs
 
 ADC analog read - https://www.youtube.com/watch?v=LMqtVnu6MeU
 digitalRead and digitalWrite - https://www.youtube.com/watch?v=ZpkI2JGdtAA
@@ -169,7 +169,7 @@ PWM controlling LED - https://www.youtube.com/watch?v=uUn0KWwwkq8
 DC motor control using Pi - https://www.youtube.com/watch?v=W7cV9_W12sM
 Ultrasonic Sensor - https://www.youtube.com/watch?v=xACy8l3LsXI
 
-8. EmailUsingPython
+* EmailUsingPython
 
 ```bash
 sudo apt-get install ssmtp mailutils
@@ -191,7 +191,7 @@ now press `ctrl+x` and press `y` to save this file then in the terminal type
 echo "Body of the email" | mail -s "Subject" ToEmailAddress
 ```
 
-9. DiffWaysToLogin
+* DiffWaysToLogin
 
 To access raspberry pi
 there are 4 ways
