@@ -1,0 +1,73 @@
+
+##Raspberry Pi & Arduino - CSOutreach
+
+<!-- MarkdownTOC -->
+
+<!-- /MarkdownTOC -->
+
+#### Install OS:
+* https://www.raspberrypi.org/documentation/installation/installing-images/windows.md
+
+#### Day 1:
+Introduction - Please - Check Their Pgm Skills
+Introduction to Arduino
+Introduction to Electronics - Breadboard, Resistor, LED
+Introduction to good programming practice 
+( const int LED=pinno) (diff #define and const ?)
+digitalWrite()- Blink LED
+        LED Stoplight
+        Pattern using LED(array (eg.pinArray[3]={3,4,5})
+digitalRead() - Reading a switch
+        Lighthing and LED using a switch
+        Alternate LEDs using a switch
+
+#### Day 2:
+analog vs digital
+Why we need analog(real work all are analog but computers know only digital)
+Introduction to POT and dim and brighten an LED
+analogRead() -  Reading a POT
+        Turn on LED after some value
+        LDR and do the same task on switching on an LED (Automating Street Light)
+Introduction to Buzzer and its working
+tone(), map() - Playing a definite note using a switch
+        Light Thermin using LDR
+#### Day 3: 
+Introduction to PWM
+analogWrite() - Dimming and brightning LED      
+Introduction to DC motor and H-Bridge
+Controlling the speed and direction of the DC motor
+Function and Interrupts
+I2C
+
+Introduction to Raspberry Pi
+What are the similarities with Arduino and Raspberry Pi
+Raspberry Pi is a computer
+LINUX commands
+
+#### Day 4:
+Introduction to Python, Various ways to write code(IDLE, nano,pico,vi)
+Fibonacci, Reversing a number
+Introduction to GPIO(must be a super user (sudo su) to run the python scripts for GPIO) and how they are similar to Arduino
+Ultrasonic using Raspberry Pi(Gaven Macdonald videos)
+PWM in Raspberry Pi(Dimming LED and how the resistor values are diff becasue of the operating voltage)
+
+ADC using Raspberry Pi and I2C
+
+#### Day 5:
+Camera set up survellence before they come
+After that introduce PiCamera and how to capture image and video
+If time permits they can try out camera
+Various other pgm languages how to compile and run
+
+Project in the afternoon
+
+Then go on to see the below tutorial
+* https://www.youtube.com/playlist?list=PLsa31gkyINsly6N_usaeHrtDPYnwxO-1Y
+
+Finally  see this
+* https://www.youtube.com/user/updowndown/videos
+* https://www.youtube.com/user/TheRaspberryPiGuy/playlists
+
+Connect Pi directly using the LAN port on your PC follow the second instruction in the link below.
+* https://pihw.wordpress.com/guides/direct-network-connection/
+
