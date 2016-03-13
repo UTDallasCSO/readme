@@ -85,7 +85,10 @@ Connect Pi directly using the LAN port on your PC follow the second instruction 
 8. [EmailUsingPython](#emailusingpython)
 9. [DiffWaysToLogin](#diffwaystologin)
 
+===
+
 1. Python Installation Guide
+
 ```bash
 sudo apt-get install python-dev
 sudo apt-get update
@@ -95,6 +98,7 @@ sudo -i(To become a super user)
 ```
 
 2. Setting Up VNC Server
+
 ```bash
 sudo apt-get install tightvncserver
 sudo apt-get update
@@ -108,6 +112,7 @@ Then afterwards just open putty and type the tightvncserver to start
 hosting the vnc server in raspberr-pi later
 
 3. To update the OS
+
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
@@ -116,19 +121,15 @@ sudo rpi-update
 
 
 4. To stream videos
+
 To take still pictures:
 `raspi-config`
-
 Enable camera
-
 ```bash
 raspistill -o firstimage.jpg
 raspistill -hf -o firstimage.jpg
 ```
-
-To stream videos
-
-https://www.youtube.com/watch?v=9vGi376X3PA
+To stream videos https://www.youtube.com/watch?v=9vGi376X3PA
 
 Download netcat and mplayer
 In windows navigate to the place where you have stored the extracted mplayer and netcat
@@ -141,10 +142,12 @@ raspivid -t 999999 -o - | nc "IPAddress of windows machines" 5005
 ```
  
 5. To do time lapse
+
 Timelapse:
 `raspstill -o timelapse%04d.jpg -t 5 -tl 1000`
 
 6. Camera and GPIO
+
 https://www.youtube.com/watch?v=KM4n2OtwGl0
 https://www.youtube.com/watch?v=q_NvDTZIaS4&feature=youtu.be
 https://www.youtube.com/watch?v=9vGi376X3PA
@@ -158,6 +161,7 @@ https://www.raspberrypi.org/documentation/usage/gpio/
 http://www.pyimagesearch.com/2015/02/23/install-opencv-and-python-on-your-raspberry-pi-2-and-b/
 
 7. Video Links to all programs
+
 ADC analog read - https://www.youtube.com/watch?v=LMqtVnu6MeU
 digitalRead and digitalWrite - https://www.youtube.com/watch?v=ZpkI2JGdtAA
 LED blink - https://www.youtube.com/watch?v=sPloaoFWYK8
@@ -166,6 +170,7 @@ DC motor control using Pi - https://www.youtube.com/watch?v=W7cV9_W12sM
 Ultrasonic Sensor - https://www.youtube.com/watch?v=xACy8l3LsXI
 
 8. EmailUsingPython
+
 ```bash
 sudo apt-get install ssmtp mailutils
 sudo nano /etc/ssmtp/ssmtp.conf
@@ -187,6 +192,7 @@ echo "Body of the email" | mail -s "Subject" ToEmailAddress
 ```
 
 9. DiffWaysToLogin
+
 To access raspberry pi
 there are 4 ways
     1. HDMI cable - done
