@@ -1,9 +1,20 @@
 
-##Raspberry Pi & Arduino - CSOutreach
+## Raspberry Pi & Arduino - CSOutreach
 
-<!-- MarkdownTOC -->
 
-<!-- /MarkdownTOC -->
+<!-- TOC depthFrom:1 depthTo:4 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Raspberry Pi & Arduino - CSOutreach](#raspberry-pi-arduino-csoutreach)
+- [Install OS:](#install-os)
+- [Day 1:](#day-1)
+- [Day 2:](#day-2)
+- [Day 3:](#day-3)
+- [Day 4:](#day-4)
+- [Day 5:](#day-5)
+- [Other Topics](#other-topics)
+- [The above need to be done for the first time](#the-above-need-to-be-done-for-the-first-time)
+
+<!-- /TOC -->
 
 #### Install OS:
 * https://www.raspberrypi.org/documentation/installation/installing-images/windows.md
@@ -12,7 +23,7 @@
 Introduction - Please - Check Their Pgm Skills
 Introduction to Arduino
 Introduction to Electronics - Breadboard, Resistor, LED
-Introduction to good programming practice 
+Introduction to good programming practice
 ( `const int LED=pinno`) (diff #define and const ?)
 
 `digitalWrite()`- Blink LED
@@ -35,7 +46,7 @@ Introduction to Buzzer and its working
         Light Thermin using LDR
 
 
-#### Day 3: 
+#### Day 3:
 Introduction to PWM
 `analogWrite()` - Dimming and brightning LED      
 Introduction to DC motor and H-Bridge
@@ -108,7 +119,7 @@ sudo apt-get upgrade
 tightvncserver(set 8 character password here)
 vncserver :1 -geometry 800x600 -depth 24
 The above needs to be done for the first time
-Then afterwards just open putty and type the tightvncserver to start 
+Then afterwards just open putty and type the tightvncserver to start
 hosting the vnc server in raspberr-pi later
 
 ##### To update the OS
@@ -135,12 +146,12 @@ Download netcat and mplayer
 In windows navigate to the place where you have stored the extracted mplayer and netcat
 nc -l -p 5005 | mplayer -fps 31 -cache 1024 -
 
-In raspberry pi 
+In raspberry pi
 ```bash
 sudo apt-get install mplayer netcat
 raspivid -t 999999 -o - | nc "IPAddress of windows machines" 5005
 ```
- 
+
 ##### To do time lapse
 
 Timelapse:
@@ -208,7 +219,7 @@ vncserver :1 -geometry 800x600 -depth 24
 #The above need to be done for the first time
 omxplayer /opt/vc/src/hello_pi/hello_video/test.h264
 ```
-Then afterwards just open putty and type the tightvncserver to start 
+Then afterwards just open putty and type the tightvncserver to start
 hosting the vnc server in raspberry later
 
 `sudo apt-get install python-picamera`

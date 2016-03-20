@@ -15,7 +15,10 @@
 12. [Exception Handling]()
 13. [Using I/O]()
 14. [Collections]()
-15. [Generics]()
+15. [Generics](#generics)
 16. [Multithreaded Programming]()
 17. [Debugging]()
 18. [What next : J2EE]()
+
+
+####Generics
