@@ -1,24 +1,41 @@
 # Java Workshop: Introduction to Programming
 
-###Contents
-1. [Installing Java]()
-2. [Java Environment]()
-3. [Hello World]()
-4. [Java fundamentals]()
-5. [Introducing variables, primitive data types and Operators]()
-6. [Program Control Statements]()
-7. [Introducing Classes, Objects and Methods]()
-8. [More Data Types and Operators]()
-9. [A Closer Look at Methods and Classes]()
-10. [Inheritance]()
-11. [Packages and Interfaces]()
-12. [Exception Handling]()
-13. [Using I/O]()
-14. [Collections]()
-15. [Generics](#generics)
-16. [Multithreaded Programming]()
-17. [Debugging]()
-18. [What next : J2EE]()
+### Contents
+
+* [Installing Java](#installing-java)
+* [Java Environment]()
+* [Hello World]()
+* [Java fundamentals](#java-fundamentals)
+* [Introducing variables, primitive data types and Operators]()
+* [Program Control Statements]()
+* [Introducing Classes, Objects and Methods]()
+* [More Data Types and Operators]()
+* [A Closer Look at Methods and Classes]()
+* [Inheritance]()
+* [Packages and Interfaces]()
+* [Exception Handling]()
+* [Using I/O]()
+* [Collections]()
+* [Generics](#generics)
+* [Multithreaded Programming]()
+* [Debugging]()
+* [What next : J2EE]()
 
 
-####Generics
+#### Installing Java
+_This is a module about the fundamentals of Java. The instructor takes a poll in the class and gauges the level of the students - if they have had no prior experience with any programming language then, more time needs to be spent on this module than usual._
+
+
+#### Java fundamentals
+_Topics like Origins of Java, What is byte-code, class file and the java compiler._
+__Origins of Java__: Java was originally called "Oak". The primary need for Java was platform-independent applications. We will learn about the platform independence of java soon. C++ needs a specific compiler for every platform where it must be run. Compiler is something that take the code that you enter and converts it into instructions for the CPU to execute. Now why can we not have the same compiler everywhere? The reason for this is constraints - a microwave controller will not have the same on-chip memory as a desktop computer. Let us just say that the memory that an `int` takes up depends on the compiler and ultimately on the available memory! 
+
+__So does Java replace C++?__ Not really, Java was created to solve a different set of problems and C++ was created to solve some other. Both will continue to co-exist for a long time to come - being useful in their own ways.
+
+__Java's magic - the Bytecode!__ So what makes Java portable? Why can java programs be run on any hardware but C++ cannot? The answer to all of those questions is `Bytecode`
+
+```java
+Bytecode is a highly optimized set of instructions which are executed by the Java run-time environment which is called the Java virtual machine (JVM) That is, in its standard form JVM is an interpreter for bytecode. 
+```
+Surprising right? Modern programming languages like C++ have been designed to be compiled not interpreted, yet Java solves the problems of portability and security with this implementation. Thus the only thing that needs to be done differently from machine to machine is to interpret the bytecode. This JVM can easily be implemented on a variety of machines. Thus once we have the JVM in place say for your __Kindle__ then all we need is the Java byte code. The same bytecode will also run on your pebble smart watch and iPad without a problem as long as there is a JVM to handle it!
+#### Generics
