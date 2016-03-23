@@ -23,19 +23,48 @@
 
 
 #### Installing Java
-_This is a module about the fundamentals of Java. The instructor takes a poll in the class and gauges the level of the students - if they have had no prior experience with any programming language then, more time needs to be spent on this module than usual._
+_This is a module about the fundamentals of Java. The instructor takes a poll in the class and gauges the level of the students - if they have had no prior experience with any programming language then, more time needs to be spent on this module than usual._ 
+JRE: Java Runtime Environment. It is basically the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution.
 
+JDK: It's the full featured Software Development Kit for Java, including JRE, and the compilers and tools (like JavaDoc, and Java Debugger) to create and compile programs.
+
+Usually, when you only care about running Java programs on your browser or computer you will only install JRE. It's all you need. On the other hand, if you are planning to do some Java programming, you will also need JDK.
+
+Sometimes, even though you are not planning to do any Java Development on a computer, you still need the JDK installed. For example, if you are deploying a WebApp with JSP, you are technically just running Java Programs inside the application server. Why would you need JDK then? Because application server will convert JSP into Servlets and use JDK to compile the servlets.
 
 #### Java fundamentals
 _Topics like Origins of Java, What is byte-code, class file and the java compiler._
-__Origins of Java__: Java was originally called "Oak". The primary need for Java was platform-independent applications. We will learn about the platform independence of java soon. C++ needs a specific compiler for every platform where it must be run. Compiler is something that take the code that you enter and converts it into instructions for the CPU to execute. Now why can we not have the same compiler everywhere? The reason for this is constraints - a microwave controller will not have the same on-chip memory as a desktop computer. Let us just say that the memory that an `int` takes up depends on the compiler and ultimately on the available memory! 
+* __Origins of Java__: Java was originally called "Oak". The primary need for Java was platform-independent applications. We will learn about the platform independence of java soon. C++ needs a specific compiler for every platform where it must be run. Compiler is something that take the code that you enter and converts it into instructions for the CPU to execute. Now why can we not have the same compiler everywhere? The reason for this is constraints - a microwave controller will not have the same on-chip memory as a desktop computer. Let us just say that the memory that an `int` takes up depends on the compiler and ultimately on the available memory! 
 
-__So does Java replace C++?__ Not really, Java was created to solve a different set of problems and C++ was created to solve some other. Both will continue to co-exist for a long time to come - being useful in their own ways.
+* __So does Java replace C++?__ Not really, Java was created to solve a different set of problems and C++ was created to solve some other. Both will continue to co-exist for a long time to come - being useful in their own ways.
 
-__Java's magic - the Bytecode!__ So what makes Java portable? Why can java programs be run on any hardware but C++ cannot? The answer to all of those questions is `Bytecode`
+* __Java's magic - the Bytecode!__ So what makes Java portable? Why can java programs be run on any hardware but C++ cannot? The answer to all of those questions is `Bytecode`
 
 ```java
 Bytecode is a highly optimized set of instructions which are executed by the Java run-time environment which is called the Java virtual machine (JVM) That is, in its standard form JVM is an interpreter for bytecode. 
 ```
 Surprising right? Modern programming languages like C++ have been designed to be compiled not interpreted, yet Java solves the problems of portability and security with this implementation. Thus the only thing that needs to be done differently from machine to machine is to interpret the bytecode. This JVM can easily be implemented on a variety of machines. Thus once we have the JVM in place say for your __Kindle__ then all we need is the Java byte code. The same bytecode will also run on your pebble smart watch and iPad without a problem as long as there is a JVM to handle it!
+
+The JAVA buzzwords are:
+1. Simple
+2. Secure
+3. Portable
+4. Object-oriented
+5. Robust
+6. Multithreaded
+7. Architecture-neutral
+8. Interpreted
+9. High performance
+10. Distributed
+11. Dynamic
+
+__Object oriented programming__
+Object oriented programming takes the best ideas of structured programming and combines them with several new concepts. Object oriented codes are organized around the data (as opposed to code)
+To support object oriented programming, Java has the following three traits:
+1. Encapsulation
+2. Polymorphism
+3. Inheritance
+
+
+
 #### Generics
