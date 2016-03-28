@@ -4,8 +4,8 @@
 
 * [Installing Java](#installing-java)
 * [Java Environment]()
-* [Hello World]()
 * [Java fundamentals](#java-fundamentals)
+* [Hello World]()
 * [Introducing variables, primitive data types and Operators]()
 * [Program Control Statements]()
 * [Introducing Classes, Objects and Methods]()
@@ -65,6 +65,56 @@ To support object oriented programming, Java has the following three traits:
 2. Polymorphism
 3. Inheritance
 
+#### Simple Hello World Program
+
+/** The HelloWorldProgram class implements an application that simply prints "Hello World!" to standard output.
+ */
+
+
+class HelloWorldProgram {
+  public static void main(String[] args) {
+	//Print to the console
+    System.out.println("Hello World!"); 
+ }
+}
+
+_The above HelloWorldProgram has primary components as,_
+* __Class Definition__: 
+
+  class HelloWorldPragram. 
+
+  The name of the class must match the name with which the file is saved. For example in the above example the java file is saved with name HelloWorldPragram.java
+  The keyword class begins the class definition for a class named HelloWorldPragram, and the code for each class appears between the opening and closing curly braces – {}.
+
+* __Main Method__:
+
+  In the Java programming language, every application must contain a main method whose signature is:
+  public static void main(String[] args)
+
+  Main method is the entry point for your application and will subsequently invoke all the other methods required by your program.
+  The main method accepts a single argument (String[] args) - an array of elements of type String.
+
+  Finally, the line:
+
+  System.out.println("Hello World!");
+
+  uses the System class from the core library to print the "Hello World!" message to standard output. Explain about core library in the next coming chapters.
+
+* __Comments__:
+
+  Comments are ignored by the compiler but are useful to other programmers. The Java programming language supports three kinds of comments:
+
+  /* text */
+
+  The compiler ignores everything from /* to */.
+
+  /** documentation */
+
+  This indicates a documentation comment (doc comment, for short). The compiler ignores this kind of comment, just like it ignores comments that use /* and */. The javadoc tool uses doc comments when preparing automatically generated documentation. See the Javadoc™ tool documentation for more information on javadoc.
+
+  // text
+
+  The compiler ignores everything from // to the end of the line.
 
 
 #### Generics
