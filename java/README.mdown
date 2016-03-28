@@ -3,7 +3,7 @@
 ### Contents
 
 * [Installing Java](#installing-java)
-* [Java Environment]()
+* [Java Environment](#java-enviroment)
 * [Java fundamentals](#java-fundamentals)
 * [Hello World](#hello-world)
 * [Introducing variables, primitive data types and Operators]()
@@ -23,7 +23,7 @@
 
 
 #### Installing Java
-_This is a module about the fundamentals of Java. The instructor takes a poll in the class and gauges the level of the students - if they have had no prior experience with any programming language then, more time needs to be spent on this module than usual._ 
+_This is a module about the fundamentals of Java. The instructor takes a poll in the class and gauges the level of the students - if they have had no prior experience with any programming language then, more time needs to be spent on this module than usual._
 JRE: Java Runtime Environment. It is basically the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution.
 
 JDK: It's the full featured Software Development Kit for Java, including JRE, and the compilers and tools (like JavaDoc, and Java Debugger) to create and compile programs.
@@ -34,15 +34,13 @@ Sometimes, even though you are not planning to do any Java Development on a comp
 
 #### Java fundamentals
 _Topics like Origins of Java, What is byte-code, class file and the java compiler._
-* __Origins of Java__: Java was originally called "Oak". The primary need for Java was platform-independent applications. We will learn about the platform independence of java soon. C++ needs a specific compiler for every platform where it must be run. Compiler is something that take the code that you enter and converts it into instructions for the CPU to execute. Now why can we not have the same compiler everywhere? The reason for this is constraints - a microwave controller will not have the same on-chip memory as a desktop computer. Let us just say that the memory that an `int` takes up depends on the compiler and ultimately on the available memory! 
+* __Origins of Java__: Java was originally called "Oak". The primary need for Java was platform-independent applications. We will learn about the platform independence of java soon. C++ needs a specific compiler for every platform where it must be run. Compiler is something that take the code that you enter and converts it into instructions for the CPU to execute. Now why can we not have the same compiler everywhere? The reason for this is constraints - a microwave controller will not have the same on-chip memory as a desktop computer. Let us just say that the memory that an `int` takes up depends on the compiler and ultimately on the available memory!
 
 * __So does Java replace C++?__ Not really, Java was created to solve a different set of problems and C++ was created to solve some other. Both will continue to co-exist for a long time to come - being useful in their own ways.
 
 * __Java's magic - the Bytecode!__ So what makes Java portable? Why can java programs be run on any hardware but C++ cannot? The answer to all of those questions is `Bytecode`
+    - Bytecode is a highly optimized set of instructions which are executed by the Java run-time environment which is called the Java virtual machine (JVM) That is, in its standard form JVM is an interpreter for bytecode.
 
-```java
-Bytecode is a highly optimized set of instructions which are executed by the Java run-time environment which is called the Java virtual machine (JVM) That is, in its standard form JVM is an interpreter for bytecode. 
-```
 Surprising right? Modern programming languages like C++ have been designed to be compiled not interpreted, yet Java solves the problems of portability and security with this implementation. Thus the only thing that needs to be done differently from machine to machine is to interpret the bytecode. This JVM can easily be implemented on a variety of machines. Thus once we have the JVM in place say for your __Kindle__ then all we need is the Java byte code. The same bytecode will also run on your pebble smart watch and iPad without a problem as long as there is a JVM to handle it!
 
 The JAVA buzzwords are:
@@ -59,29 +57,56 @@ The JAVA buzzwords are:
 11. Dynamic
 
 __Object oriented programming__
+
 Object oriented programming takes the best ideas of structured programming and combines them with several new concepts. Object oriented codes are organized around the data (as opposed to code)
 To support object oriented programming, Java has the following three traits:
 1. Encapsulation
 2. Polymorphism
 3. Inheritance
 
-#### Hello World
+#### Java Environment
+In the previous section, we learned how to install Java, what the difference between JRE and JDK is and so on. Here, we will learn more about the Java environment, setting the path variable in the OS of your choice and the various IDE's available on the market.
 
+__Setting up path on your OS__
+
+_THIS STEP IS CRUICIAL, MANY STUDENTS IN THE PAST HAVE CORRUPTED THE CS OUTREACH LAPTOP AFTER MESSING UP AT THIS STEP!_
+1. Setting up the path for windows:
+Assuming you have installed Java in c:\Program Files\java\jdk directory:
+*  Right-click on `My Computer` and select '`Properties`'.
+*  Click on the `Environment variables` button under the '`Advanced`' tab.
+*  Now, alter the `Path` variable so that it also contains the path to the Java executable. Example, if the path is currently set to '`C:\WINDOWS\SYSTEM32`', then change your path to read '`C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin`'.
+
+2. Setting up the path for Linux, UNIX, Solaris, FreeBSD:
+Environment variable `PATH` should be set to point to where the Java binaries have been installed. Refer to your shell documentation if you have trouble doing this.
+
+Example, if you use bash as your shell, then you would add the following line to the end of your '`.bashrc`: `export PATH=/path/to/java:$PATH`'
+
+3. Popular JAVA IDE's
+To write your Java programs, you will need a text editor. There are even more sophisticated IDEs available in the market. But for now, you can consider one of the following:
+
+`Notepad++`: On Windows machine you can use any simple text editor like Notepad (Recommended for this tutorial), TextPad, Sublime Text or Atom.
+
+`Netbeans`: is a Java IDE that is open-source and free which can be downloaded from http://www.netbeans.org/index.html.
+
+`Eclipse`: is also a Java IDE developed by the eclipse open-source community and can be downloaded from http://www.eclipse.org/.
+
+
+#### Hello World
+```java
 /** The HelloWorldProgram class implements an application that simply prints "Hello World!" to standard output.
  */
-
-
 class HelloWorldProgram {
   public static void main(String[] args) {
 	//Print to the console
-    System.out.println("Hello World!"); 
+    System.out.println("Hello World!");
  }
 }
+```
 
 _The above HelloWorldProgram has primary components as,_
-* __Class Definition__: 
+* __Class Definition__:
 
-  class HelloWorldProgram. 
+  `class HelloWorldProgram. `
 
   The name of the class must match the name with which the file is saved. For example in the above example the java file is saved with name HelloWorldProgram.java
   The keyword class begins the class definition for a class named HelloWorldProgram, and the code for each class appears between the opening and closing curly braces – {}.
@@ -89,32 +114,63 @@ _The above HelloWorldProgram has primary components as,_
 * __Main Method__:
 
   In the Java programming language, every application must contain a main method whose signature is:
-  public static void main(String[] args)
+  `public static void main(String[] args)`
 
   Main method is the entry point for your application and will subsequently invoke all the other methods required by your program.
   The main method accepts a single argument (String[] args) - an array of elements of type String.
 
   Finally, the line:
 
-  System.out.println("Hello World!");
+  `System.out.println("Hello World!");`
 
-  uses the System class from the core library to print the "Hello World!" message to standard output. Explain about core library in the next coming chapters.
+  uses the System class from the core library to print the "Hello World!" message to standard output.
 
 * __Comments__:
 
   Comments are ignored by the compiler but are useful to other programmers. The Java programming language supports three kinds of comments:
 
-  /* text */
+ `/* text */`
 
   The compiler ignores everything from /* to */.
 
-  /** documentation */
+  `/**documentation*/`
 
-  This indicates a documentation comment (doc comment, for short). The compiler ignores this kind of comment, just like it ignores comments that use /* and */. The javadoc tool uses doc comments when preparing automatically generated documentation. See the Javadoc™ tool documentation for more information on javadoc.
+  This indicates a documentation comment (doc comment, for short). The compiler ignores this kind of comment, just like it ignores comments that use /\* and \*/.
+  The javadoc tool uses doc comments when preparing automatically generated documentation. See the Javadoc™ tool documentation for more information on javadoc.
 
-  // text
+  `// text`
 
   The compiler ignores everything from // to the end of the line.
+* __Constructors:__
+  When discussing about classes, one of the most important sub topic would be constructors. Every class has a constructor. If we do not explicitly write a constructor for a class the Java compiler builds a default constructor for that class.
+
+  Each time a new object is created, at least one constructor will be invoked. The main rule of constructors is that they should have the same name as the class. A class can have more than one constructor.
+
+  Example of a constructor is given below:
+
+```java
+public class Puppy{
+    public Puppy
+    }
+    public Puppy(String name){
+        // This constructor has one parameter, name.
+    }
+}
+```
+Java also supports Singleton Classes where you would be able to create only one instance of a class.
+
+### Source file declaration rules-
+Let us now look into the source file declaration rules. These rules are essential when declaring classes, import statements and package statements in a source file.
+* There can be only one public class per source file.
+* A source file can have multiple non public classes.
+* The public class name should be the name of the source file as well which should be appended by .java at the end.
+* If the class is defined inside a package, then the package statement should be the first statement in the source file.
+* If import statements are present then they must be written between the package statement and the class declaration. If there are no package statements then the import statement should be the first line in the source file.
+* Import and package statements will imply to all the classes present in the source file. It is not possible to declare different import and/or package statements to different classes in the source file.
+* Classes have several access levels and there are different types of classes; abstract classes, final classes, etc. we will be explaining about all these in the access modifiers chapter.
+
+#### Introducing variables, primitive data types and Operators
+
 
 
 #### Generics
