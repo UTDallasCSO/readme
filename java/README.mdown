@@ -5,7 +5,7 @@
 * [Installing Java](#installing-java)
 * [Java Environment]()
 * [Java fundamentals](#java-fundamentals)
-* [Hello World]()
+* [Hello World](#hello-world)
 * [Introducing variables, primitive data types and Operators]()
 * [Program Control Statements]()
 * [Introducing Classes, Objects and Methods]()
@@ -65,7 +65,7 @@ To support object oriented programming, Java has the following three traits:
 2. Polymorphism
 3. Inheritance
 
-#### Simple Hello World Program
+#### Hello World
 
 /** The HelloWorldProgram class implements an application that simply prints "Hello World!" to standard output.
  */
@@ -81,10 +81,10 @@ class HelloWorldProgram {
 _The above HelloWorldProgram has primary components as,_
 * __Class Definition__: 
 
-  class HelloWorldPragram. 
+  class HelloWorldProgram. 
 
-  The name of the class must match the name with which the file is saved. For example in the above example the java file is saved with name HelloWorldPragram.java
-  The keyword class begins the class definition for a class named HelloWorldPragram, and the code for each class appears between the opening and closing curly braces – {}.
+  The name of the class must match the name with which the file is saved. For example in the above example the java file is saved with name HelloWorldProgram.java
+  The keyword class begins the class definition for a class named HelloWorldProgram, and the code for each class appears between the opening and closing curly braces – {}.
 
 * __Main Method__:
 
