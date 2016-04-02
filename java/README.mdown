@@ -171,6 +171,86 @@ Let us now look into the source file declaration rules. These rules are essentia
 
 #### Introducing variables, primitive data types and Operators
 
+###Variables
 
+A variable provides us with named storage that our programs can manipulate.
+Each variable in Java has a specific type, which determines the size and layout of the variable's memory 
+and the range of values that can be stored within that memory.
+
+There are different types of variables in Java. They are as follows:
+* __Instance Variables (Non-Static Fields)__:
+Non-static fields are also known as instance variables because their values are unique to each instance of a class. 
+For example, the `currentSpeed` of one bicycle is independent from the `currentSpeed` of another.
+
+* __Class Variables (Static Fields)__:
+A class variable is any field declared with the static modifier. This tells the compiler that there is exactly one copy of this variable in existence, regardless of how many times the class has been instantiated. 
+A field defining the number of gears for a particular kind of bicycle could be marked as static since, conceptually, the same number of gears will apply to all instances. 
+The code `static int numGears = 6;` would create such a static field.
+
+* __Local Variables__:
+A method stores its temporary state in local variables. The syntax for declaring a local variable is similar to declaring a field (for example, `int count = 0;`). 
+There is no special keyword designating a variable as local; that determination comes entirely from the location in which the variable is declared—between the opening and closing braces of a method. 
+As such, local variables are only visible to the methods in which they are declared; they are not accessible from the rest of the class.
+
+* Parameters Variables__:
+Recall that the signature for the main method is `public static void main(String[] args`). 
+Here, the args variable is the parameter to this method. The important thing to remember is that parameters are always classified as "variables" not "fields". 
+
+###Primitive Data Types
+
+The Java programming language is statically-typed, which means that all variables must first be declared before they can be used. 
+This involves stating the variable's type and name, and is as follows:
+
+`int gear = 1;`
+
+Doing so tells your program that a field named "gear" exists, holds numerical data, and has an initial value of "1". 
+A variable's data type determines the values it may contain, plus the operations that may be performed on it. 
+In addition to int, the Java programming language supports seven other primitive data types. 
+A primitive type is predefined by the language and is named by a reserved keyword. 
+The eight primitive data types supported by the Java programming language are: byte, short, int, long, float, double, boolean, char.
+In addition to the eight primitive data types listed above, the Java programming language also provides special support for character
+strings via the java.lang.String class. Enclosing your character string within double quotes will automatically create a new String 
+object. For example, `String s = "this is a string";`. The String class is not technically a primitive data type, but considering the 
+special support given to it by the language.
+
+The following tables defines the default values of the primitive data types.
+Data Type	Default Value (for fields)
+byte		0
+short		0
+int		0
+long		0L
+float		0.0f
+double		0.0d
+char		'\u0000'
+String (or any object)  	null
+boolean		false
+
+
+###Operators
+After we declare and initialize variables, you probably want to know how to do something with them. 
+Operators are special symbols that perform specific operations on one, two, or three operands, and then return a result.
+
+Java operators include, assignment(=), arithmatic(+,-,*,/,%), unary(+,-,++,--,!), equality and rational (==, !=, >, >=, <, <=), 
+conditional(&&, ||), bitwise(&, |, ^) and bit shift(<<, >>, >>>) operators.
+
+All these operators work on the basis of precedence. The operators in the following table are listed according to precedence order. 
+
+Operators	Precedence
+postfix		expr++ expr--
+unary		++expr --expr +expr -expr ~ !
+multiplicative	* / %
+additive	+ -
+shift		<< >> >>>
+relational	< > <= >= instanceof
+equality	== !=
+bitwise AND	&
+bitwise exclusive OR	^
+bitwise inclusive OR	|
+logical AND	&&
+logical OR	||
+ternary		? :
+assignment	= += -= *= /= %= &= ^= |= <<= >>= >>>=
+
+###Program Control Statements
 
 #### Generics
