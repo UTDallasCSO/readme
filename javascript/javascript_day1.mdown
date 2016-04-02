@@ -1,0 +1,14 @@
+### Day 1
+
+* Start the workshop with one of the shows in following directory – click on any showX.html (press F11 and go full-screen for the full effect!): http://www.utdallas.edu/~jeyv/KAJS/shows
+* All with just ~20 lines of code in Processing.js that contain a few simple math equations!
+* Math is beautiful :-) You will understand the code behind these images in this workshop, then you can write your own code & generate your own dazzling images!
+
+Description | Materials / Images
+--- | ---
+KhanAcademy-JavaScript installation and lab setup – There is no software to download and install, since JavaScript is interpreted by the browser. Mozilla Firefox is the officially “tested” browser – Google Chrome may work too, but it is not fully tested for the examples given below. We need Internet connection to access Khan Academy site just to get started, then we can work locally as long as you don’t click on Khan Academy examples. |
+Why does it make sense to go through this Drawings workshop? (Why not learn C/C++/Java directly?) | [PPT](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pptx)/[PDF](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pdf)
+Welcome to Drawings workshop! Here are a few suggestions to get the maximum value from this workshop. We will cycle through 3 modes for each topic/example: Watching, Doing it individually, helping each other to complete and work on something extra. You can use www.online-stopwatch.com to make sure that the workshop is progressing in timely manner. |
+Core programming concepts – Sequence, selection and repetition are 3 pillars of programming! | [Flash](http://www.utdallas.edu/~veerasam/kajs/programming_basics.swf)/[YouTube](http://www.youtube.com/watch?v=Ww7UJCUm9IE), [PPT](http://www.utdallas.edu/~veerasam/kajs/Programming_Basics.PPTX)/[PDF](http://www.utdallas.edu/~veerasam/kajs/Programming_Basics.pdf)
+KhanAcademy-JavaScript installation and lab setup – There is no software to download and install, since JavaScript is interpreted by the browser. Mozilla Firefox is the officially “tested” browser – Google Chrome may work too, but it is not fully tested for the examples given below. We need Internet connection to access Khan Academy site just to get started, then we can work locally as long as you don’t click on Khan Academy examples. |
+Why does it make sense to go through this Drawings workshop? (Why not learn C/C++/Java directly?) | [PPT](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pptx)/[PDF](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pdf)

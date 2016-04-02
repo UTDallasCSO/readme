@@ -3,29 +3,20 @@ University of Texas at Dallas, USA.__
 <hr>
 _While these materials have been targeted for workshops, they can certainly be used for self-paced learning from your home as well. Just that it can be more enjoyable experience if you have at least a partner to discuss and exchange ideas! Some background in programming concepts will enable you to enjoy the material – so I recommend you to complete Alice workshop first._
 
-* Start the workshop with one of the shows in following directory – click on any showX.html (press F11 and go full-screen for the full effect!): http://www.utdallas.edu/~jeyv/KAJS/shows
-* All with just ~20 lines of code in Processing.js that contain a few simple math equations!
-* Math is beautiful :-) You will understand the code behind these images in this workshop, then you can write your own code & generate your own dazzling images!
+#### [Day 1]()
+#### [Day 2]()
+#### [Day 3]()
 
-Description | Materials/Images
----- | ---- 
-KhanAcademy-JavaScript installation and lab setup – There is no software to download and install, since JavaScript is interpreted by the browser. Mozilla Firefox is the officially “tested” browser – Google Chrome may work too, but it is not fully tested for the examples given below. We need Internet connection to access Khan Academy site just to get started, then we can work locally as long as you don’t click on Khan Academy examples. | 
-Why does it make sense to go through this Drawings workshop? (Why not learn C/C++/Java directly?) | [PPT](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pptx)/[PDF](http://www.utdallas.edu/~veerasam/kajs/why_alice_first.pdf)
-Welcome to Drawings workshop! Here are a few suggestions to get the maximum value from this workshop. We will cycle through 3 modes for each topic/example: Watching, Doing it individually, helping each other to complete and work on something extra. You can use www.online-stopwatch.com to make sure that the workshop is progressing in timely manner. |
-Core programming concepts – Sequence, selection and repetition are 3 pillars of programming! | [Flash](http://www.utdallas.edu/~veerasam/kajs/programming_basics.swf)/[YouTube](http://www.youtube.com/watch?v=Ww7UJCUm9IE), [PPT](http://www.utdallas.edu/~veerasam/kajs/Programming_Basics.PPTX)/[PDF](http://www.utdallas.edu/~veerasam/kajs/Programming_Basics.pdf)
-Introduction to KhanAcademy-JavaScript environment – www.khanacademy.org/cs - Visual Programming – free-form typing – you can see the output immediately or with one-click. | ![Intro1](http://www.utdallas.edu/~veerasam/kajs/index_files/image002.jpg) ![Intro2](http://www.utdallas.edu/~veerasam/kajs/index_files/image002.jpg)
-Fun with examples: Click on All Programs or click here www.khanacademy.org/cs/browse/all-programs to go there directly. Scroll down and click on a few interest ones and have fun! After completing this workshop, you can generate similar or even better images! | 
-Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under first 2 headings: Intro to programming Drawing basics |
 
 Assignment | Topic | Materials
 ---- | ---- | ----
 1: | Draw a nice house! | Documentation: Click on Documentation or click here www.khanacademy.org/cs/docs  & processingjs.org/reference. Each API comes with a sample usage too.
  | Goto https://www.khanacademy.org/cs/programming: Review all the tutorials listed under Coloring Video: Draw a ellipse with random size & random color! Documentation: [random()](http://www.khanacademy.org/cs/randomlow-high/827911487) | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); ellipse(random(0,400), random(0,400), random(0,100), random(0,100));`
  | You can comment out individual lines with // and multiple lines with /* ... */
- | Also, what happens if these lines are out of order? Try it! | 
+ | Also, what happens if these lines are out of order? Try it! |
   | How to restrict to circles? See the power of variable! | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); var diameter = random(0,100); ellipse(random(0,400), random(0,400), diameter, diameter);`
   | Alternate way to draw the circle! | `stroke(random(0,255),random(0,255), random(0,255));strokeWeight(random(0,100)); point(random(0,400), random(0,400));`
-2: | Add a random square! Unlike ellipse(), x and y parameters in rect() indicate the top, left corner. | 
+2: | Add a random square! Unlike ellipse(), x and y parameters in rect() indicate the top, left corner. |
  | make the circle appear fully inside the canvas area. In other words, we want to ensure that the circles are never cut off at the edges. Idea is to push the circle in if it is too close to the boundaries. Realize the power of IF statements! | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); var dia = random(0,200); var x = random(0,400);  var y = random(0,400); var rad = dia / 2; if (x < rad) {x = rad;} if (x > 400 - rad) { x = 400 - rad;} if (y < rad) { y = rad; }if (y > 400 - rad) {y = 400 - rad;} ellipse(x, y, dia, dia);`
  | Extra: What are the code changes if you want to do the same for ellipses? Alternate approach: Both Software Engineering perfectionists and Mathematicians make like the following one better! Why? | `noStroke(); fill(random(0,255),random(0,255), random(0,255)); var dia = random(0,200); var rad = dia / 2; var x = random(rad,400-rad); var y = random(rad,400-rad); ellipse(x, y, dia, dia);`
 3: | Make your square to appear within the canvas area too – let us go one step further – let us avoid the edges all-together – make the squares appear within the rectangular area of (10,10) to (390,390). Extra: What if we want to do the same for any rectangle?
@@ -79,9 +70,9 @@ var factors = [1/3, 1/3, 1/3, 1/3, 1/3];
 var turns = [-90, 90, 90, -90, 0];
 var copies = 4;
 var angle = 90;
- 
+
 var fractal = function(level, length) {
- 
+
     if (level < 1) {
         line(0,0,length,0);
         translate(length,0);
@@ -93,19 +84,19 @@ var fractal = function(level, length) {
         }
     }
 };
- 
+
 angleMode="degrees";
 translate(200-length/2, 200-length/2);
- 
+
 for(var i=0 ; i<copies ; i++) {
   fractal(depth,length);
-  rotate(angle); 
+  rotate(angle);
 }
- 
+
 rotate(90);
 for(var i=0 ; i<copies ; i++) {
   fractal(depth,length);
-  rotate(-angle); 
+  rotate(-angle);
 }
 ```
 ####Koch Curve & Snowflake
@@ -119,9 +110,9 @@ var factors = [1/3, 1/3, 1/3, 1/3];
 var turns = [-60, 120, -60, 0];
 var copies = 3;
 var angle = 120;
- 
+
 var fractal = function(level, length) {
- 
+
     if (level < 1) {
         line(0,0,length,0);
         translate(length,0);
@@ -133,15 +124,15 @@ var fractal = function(level, length) {
         }
     }
 };
- 
+
 angleMode="degrees";
 translate(200-length/2, 200-length/3.5);
- 
+
 for(var i=0 ; i<copies ; i++) {
   fractal(depth,length);
-  rotate(angle); 
+  rotate(angle);
 }
-``` 
+```
 <hr>
 ![rangoli](http://www.utdallas.edu/~veerasam/kajs/index_files/image110.jpg)
 ```javascript
@@ -151,9 +142,9 @@ var factors = [1/3, 1/3, 1/3, 1/3, 1/3];
 var turns = [-90, 90, 90, -90, 0];
 var copies = 4;
 var angle = 90;
- 
+
 var fractal = function(level, length) {
- 
+
     if (level < 1) {
         line(0,0,length,0);
         translate(length,0);
@@ -165,15 +156,15 @@ var fractal = function(level, length) {
         }
     }
 };
- 
+
 angleMode="degrees";
 translate(200-length/2, 200-length/2);
- 
+
 for(var i=0 ; i<copies ; i++) {
   fractal(depth,length);
-  rotate(angle); 
+  rotate(angle);
 }
-``` 
+```
 <hr>
 ![Rangoli2](http://www.utdallas.edu/~veerasam/kajs/index_files/image112.jpg)
 ``` javascript
@@ -183,9 +174,9 @@ var factors = [1/3, 1/3, 1/3, 1/3, 1/3];
 var turns = [-90, 90, 90, -90, 0];
 var copies = 4;
 var angle = 90;
- 
+
 var fractal = function(level, length) {
- 
+
     if (level < 1) {
         line(0,0,length,0);
         translate(length,0);
@@ -197,15 +188,15 @@ var fractal = function(level, length) {
         }
     }
 };
- 
+
 angleMode="degrees";
 translate(200-length/2, 200-length/2);
- 
+
 for(var i=0 ; i<copies ; i++) {
   fractal(depth,length);
-  rotate(angle); 
+  rotate(angle);
 }
-``` 
+```
 <hr>
 ![Rangoli 3](http://www.utdallas.edu/~veerasam/kajs/index_files/image116.jpg)
 ``` javascript
@@ -215,9 +206,9 @@ var factors = [1/3, 1/3, 1/3, 1/3];
 var turns = [-60, 120, -60, 0];
 var copies = 4;
 var angle = 90;
- 
+
 var fractal = function(level, length) {
- 
+
     if (level < 1) {
         line(0,0,length,0);
         translate(length,0);
@@ -229,15 +220,15 @@ var fractal = function(level, length) {
         }
     }
 };
- 
+
 angleMode="degrees";
 translate(200-length/2, 200-length/2);
- 
+
 for(var i=0 ; i<copies ; i++) {
   fractal(depth,length);
-  rotate(angle); 
+  rotate(angle);
 }
-``` 
+```
 <hr>
 ![Square rangoli](http://www.utdallas.edu/~veerasam/kajs/index_files/image118.jpg)
 ``` javascript
@@ -247,9 +238,9 @@ var factors = [1/3, 1/3, 1/3, 1/3];
 var turns = [-60, 120, -60, 0];
 var copies = 4;
 var angle = 90;
- 
+
 var fractal = function(level, length) {
- 
+
     if (level < 1) {
         line(0,0,length,0);
         translate(length,0);
@@ -261,69 +252,69 @@ var fractal = function(level, length) {
         }
     }
 };
- 
+
 angleMode="degrees";
 translate(200-length/2, 200-length/2);
- 
+
 for(var i=0 ; i<copies ; i++) {
   fractal(depth,length);
-  rotate(angle); 
+  rotate(angle);
 }
-``` 
+```
 <hr>
 ####Jewelry Design (JavaScript)
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```
 <hr>
 ![]()
 ``` javascript
 
-``` 
+```

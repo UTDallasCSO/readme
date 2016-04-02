@@ -11,7 +11,7 @@
 * Introducing variables, primitive data types and Operators
 * Program Control Statements
 
-#### Day 3
+#### [Day 3](https://github.com/UTDallasCSO/content/blob/master/java/java_day3.mdown)
 * [Introducing Classes, Objects and Methods]()
 * [More Data Types and Operators]()
 
