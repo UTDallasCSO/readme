@@ -8,8 +8,8 @@
 * Hello World
 
 #### [Day 2](https://github.com/UTDallasCSO/content/blob/master/java/java_day2.mdown)
-* [Introducing variables, primitive data types and Operators]()
-* [Program Control Statements]()
+* Introducing variables, primitive data types and Operators
+* Program Control Statements
 
 #### Day 3
 * [Introducing Classes, Objects and Methods]()
