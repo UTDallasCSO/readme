@@ -1,7 +1,7 @@
 # Java Workshop: Introduction to Programming
 
 ### Contents
-#### Day 1
+#### Day 1(#java_day1.mdown)
 * [Installing Java](#installing-java)
 * [Java Environment](#java-enviroment)
 * [Java fundamentals](#java-fundamentals)
