@@ -1,4 +1,9 @@
 ### Day 1
+* [Installing Java](#installing-java)
+* [Java Environment](#java-enviroment)
+* [Java fundamentals](#java-fundamentals)
+* [Hello World](#hello-world)
+
 #### Installing Java
 _This is a module about the fundamentals of Java. The instructor takes a poll in the class and gauges the level of the students - if they have had no prior experience with any programming language then, more time needs to be spent on this module than usual._
 JRE: Java Runtime Environment. It is basically the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution.
