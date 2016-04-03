@@ -1,19 +1,19 @@
 __Enjoyable Introduction to Programming using Drawings__
 by Dr. Jeyakesavan Veerasamy, CS faculty,
 University of Texas at Dallas, USA.
- 
+
 Follow these steps to get the maximum value out of the workshop:
 -      Review the tutorials provided by Khan Academy
 -      Try to do the  on your own.
 -      Review the solution videos to help you complete or to see how I completed them.
- 
+
 All the tutorials are under [this](www.khanacademy.org/cs/programming) :
 
 <!-- MarkdownTOC depth=5 -->
 
-- __Session 0:__ Core Programming Concepts
+- [__Session 0:__ Core Programming Concepts](#session-0-core-programming-concepts)
 - [__Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming:](#session-1-introduction-khanacademyorgcsprogrammingintro-to-programming)
--  __Session 2:__ Variable
+-  [__Session 2:__ Variable](#session-2-variable)
 -  __Session 3:__ Animation basics khanacademy.org/cs/programming/animation-basics:
 -  __Session 4:__ Text & Strings, Functions
 -  __Session 5:__ Logic and if Statements This version is bit slow compared to loops, but nice to see, right?
@@ -33,17 +33,17 @@ Sequence, selection and repetition are 3 pillars of programming!
 
 ---
 
-##### __Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming: 
-Watch these 2 tutorials. [Intro](http://www.utdallas.edu/Alice/Programming_Basics.pdf) 
+##### __Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming:
+Watch these 2 tutorials. [Intro](http://www.utdallas.edu/Alice/Programming_Basics.pdf)
 [Drawing Basics](khanacademy.org/cs/programming/drawing-basics)
 
-![image1](http://www.utdallas.edu/~veerasam/js/index_files/image002.jpg) 
+![image1](http://www.utdallas.edu/~veerasam/js/index_files/image002.jpg)
 
-Challenges are simple  for you to complete along the way - hint is displayed at every step – complete them too. 
+Challenges are simple  for you to complete along the way - hint is displayed at every step – complete them too.
 
 ![image2](http://www.utdallas.edu/~veerasam/js/index_files/image004.jpg)
 
-Go to main page khanacademy.org/cs and click on this direct link to start: [www.khanacademy.org/cs/new](http://www.utdallas.edu/Alice/Programming_Basics.pdf) 
+Go to main page khanacademy.org/cs and click on this direct link to start: [www.khanacademy.org/cs/new](http://www.utdallas.edu/Alice/Programming_Basics.pdf)
 
 1. Now, let your creativity run wild and create interesting drawings using a series of `rect(), ellipse()` and `line()` functions! Feel free to use these drawings as starters to kick-start your creativity! No need to draw exactly these
 
@@ -52,7 +52,7 @@ Go to main page khanacademy.org/cs and click on this direct link to start: [www.
 
 [Coloring](http://www.khanacademy.org/cs/programming/coloring): Complete the tutorials and challenges to learn about colors. Final item is a project and it is quite open-ended – keep it simple and enjoy the experience! | Welcome to the colorful world! You can go back and add colors to the drawings we did earlier! 1. Random numbers play an important role in gaming and security. For example, `random(0, 400)` will generate a random number between 0 and 400. Look at the following one line of code:`ellipse(200, 200, random(0,400), random(0,400))`; As you can see, it is ok to use the result of a function as a parameter in another function. OK, what will this line do? Think about it for a minute before testing it out! Then, enhance it to draw a random ellipse in a random color at a random location (it is ok if it is sliced off). 2. By default, all enclosed shapes (ellipse, rectange, triangle, etc.) are filled with white color. There is another in-built function `noFill()` that enables us to draw the shape without any fill. For example, here is triangle based drawing shown in the previous section, with `noFill()` at the top. Note that `noFill()` will be effective until fill() is invoked again. Use your creativity and draw a picture of your own mixing `noFill()` and `fill()` along the way 3. Redraw your house with colors! Submit this one as Week 1 assignment. ![complex](http://www.utdallas.edu/~veerasam/js/index_files/image022.jpg)
 
-#####  __Session 2:__ Variable 
+#####  __Session 2:__ Variable
 [Variables](http://khanacademy.org/cs/programming/variables)
 We learned to draw random ellipses in the previous section. How to restrict to circles? See the power of variable!` noStroke(); fill(random(0,255),random(0,255), random(0,255)); var diameter = random(0,100); ellipse(random(0,400), random(0,400), diameter, diameter); Alternate way to draw the circle! stroke(random(0,255),random(0,255), random(0,255));strokeWeight(random(0,100));point(random(0,400), random(0,400));` How will you draw a random square instead of ellipse? Note: Unlike ellipse(), x and y parameters in rect() indicate the top, left corner. So, you may need to make a few adjustments for proper display of Squares. Now that we understand variables and we can write equations using them, we can reduce our mental computations! | Here is one example: `var x1 = 200;var y1 = 50;var x2 = 50;var y2 = 300;var x3 = 350;var y3 = 300; triangle(x1, y1, x2, y2, x3, y3);//adjust the values of few variables y1 += 10; x3 -= 9; y3 -= 5; triangle(x1, y1, x2, y2, x3, y3);` //copy & paste these 4 lines lots of times to get the following: Now that we know how to add colors, make this drawing to look similar to this one using random colors: We can also make fill() color a function of variables like `fill(y1*2, (350-x3) * 2, (y3-200) * 2);` to make the color change smoothly. How does this work? Utilizing the power of variables & the beauty of colors, create your own artistic creation. We will use this as Week 2 assignment.
 
@@ -78,16 +78,16 @@ Combine the concepts you learned in the tutorial on “If Statements” and “C
 
 #####  __Power of Creativity:__
 Here is the code to draw random colored circle wherever mouse is clicked or pressed and dragged.
- 
-`var draw = function() {if (mouseIsPressed) { stroke(random(0,255), random(0,255), random(0,255)); strokeWeight(random(0,50)); point(mouseX, mouseY);}};` 
+
+`var draw = function() {if (mouseIsPressed) { stroke(random(0,255), random(0,255), random(0,255)); strokeWeight(random(0,50)); point(mouseX, mouseY);}};`
 ![Image](http://www.utdallas.edu/~veerasam/js/index_files/image054.jpg)
 Try to draw a human face or necklace or your favorite image :-)
 
 ---
 
-#####  __Session 6: Loops__ 
+#####  __Session 6: Loops__
 ![loops](http://utd.edu/~veerasam/js/index_files/image056.jpg)
- 
+
 __Draw 10 random circles!__
 
 ```javascript
@@ -113,7 +113,7 @@ for (var i = 10; i > 0; i--) {
     ellipse(200, 200, i * 40, i * 20);
 }
 ```
- 
+
 Now, try to draw 10 concentric randomly colored circles. What does “concentric” mean? Will you draw in the order of small to large circles, or other way around?
 Extra: Define a variable n at the top and write the generic code to draw n concentric circles instead.
 ```javascript
@@ -123,13 +123,13 @@ var n=10;
 Change n by clicking near 10 and dragging mouse left or right. Does your code work properly? Can you make some code changes so that all the circles will appear properly for any value of n?
 
 Adjust the color pattern covered in the lesson to use a loop of 20, then change the color pattern such that Green color appears in the middle as shown in the image.
- 
+
 Extra: Can you make it perfect Green in the middle?
- 
+
 With n specified at the top, how will you generate n x n equally distributed circles? Keep 50 as the default diameter size for circles, but reduce as needed to avoid overlapping with other circles.
- 
+
 Take it easy & draw just one line of n equally distributed circles first, then expand it to n x n circles. Submit this one as Assignment 6.
- 
+
 n = 3: ![three](http://www.utdallas.edu/~veerasam/js/index_files/image066.jpg)
 n = 5: ![five](http://www.utdallas.edu/~veerasam/js/index_files/image068.jpg)
 n = 10: ![ten](http://www.utdallas.edu/~veerasam/js/index_files/image070.jpg)
@@ -139,9 +139,9 @@ Extra: How to draw circles in diamond formation? Middle row should have n circle
 ---
 
 #####  __Session 7:__ translate(), rotate() and scale() functions
- 
+
 Play time! Use these code segments individually to learn about the behavior of translate(), rotate() and scale() – replace A,B,C and D with various values and try to understand the results!
- 
+
 ```javascript
 fill(255,0,0); ellipse(100,100,50,50); translate(A,B); ellipse(100,100,50,50); translate(C,D);
 ellipse(100,100,50,50); angleMode = "degrees";
@@ -150,8 +150,8 @@ translate(200,200);
 ellipse(100,100,50,50);
 rotate(A);
 ellipse(100,100,50,50);
- 
- 
+
+
 angleMode = "degrees";
 fill(255,0,0);
 translate(200,200);
@@ -159,11 +159,11 @@ ellipse(100,100,50,50);
 scale(B, C);
 ellipse(100,100,50,50);
 ```
- 
+
 Now, try to use rotate() and scale() together. Add for loop & random fill color, then adjust the angle – that will take you to artistic creations shown below!
- 
+
 Video: Drawing Bonus: [Rotation](http://www.khanacademy.org/cs/drawing-bonus-rotation/906448125)
- 
+
 Warning: Sometimes, browsers’ default setting of degrees vs. radians is unpredictable. You may want to add a line
 `angleMode = "degrees";`
 to the top of your program if you want the angles to be specified in degrees. Also, you can use the following line to use radians instead (note: 360 degrees = 2 * PI radians):
@@ -171,10 +171,10 @@ to the top of your program if you want the angles to be specified in degrees. Al
 This setting affects the behavior of rotate(), sin(), cos(), tan(), etc.
 
 Another generation of shrinking squares!
-```javascript 
+```javascript
 noStroke();
 translate(200,200);
- 
+
 var y = 200;
 var dir = 1;
 var len = 500;
@@ -188,14 +188,14 @@ var draw = function() {
     len /= 1.1;
 };
 ```
- 
- 
+
+
 Endless distribution of playing cards! Card size gets smaller, then gets bigger, then smaller again, bigger again ...
- 
+
 ```javascript
 strokeWeight(2);
 translate(200,200);
- 
+
 var y = 200;
 var dir = 1;
 var len = 1;
@@ -216,9 +216,9 @@ var draw = function() {
 ```
 ![Pattern](http://www.utdallas.edu/~veerasam/js/index_files/image076.jpg)
 Extra: How about slow color change, instead of random colors?
- 
+
 Video: Artistic creations including rotating & shrinking squares/ellipses – change the angle within rotate() and see the wonders! translate() is used to move (0,0) to the center so that we can see all quadrants, as we do the rotations. scale() is used to change the size gradually ...
- 
+
 ```javascript
 noStroke();
 translate(200,200);
@@ -230,7 +230,7 @@ for (var i = 500; i > 0; i--) {
 }
 ```
 ![Pattern1](http://www.utdallas.edu/~veerasam/js/index_files/image078.jpg)
-```javascript 
+```javascript
 noStroke();
 translate(200,200);
 for (var i = 500; i > 0; i--) {
@@ -241,7 +241,7 @@ for (var i = 500; i > 0; i--) {
 }
 ```
 ![Pattern2](http://www.utdallas.edu/~veerasam/js/index_files/image080.jpg)
- 
+
 Discussion: You can see colors become bolder, but why they change suddenly?
 ```javascript
 noStroke();
@@ -322,13 +322,13 @@ for (var i = 500; i > 0; i--) {
 ![pattern 8](http://www.utdallas.edu/~veerasam/js/index_files/image092.jpg)
 
 Let your creativity run wild & make a few fancy artistic images of your own by making various changes to code segments in the lessons.
- 
+
 You have seen the examples using ellipses and rectangles. Try the same using triangles (rotations & scaling down).
 Functions: Circle of rockets!
- 
+
 ```javascript
 noStroke();
- 
+
 var drawRacket = function() {
     fill(255, 0, 102);
     triangle(150,0,200,-40,200,40);
@@ -337,22 +337,22 @@ var drawRacket = function() {
     fill(9, 0, 255);
     triangle(125,-25,125,25,100,0);
 };
- 
+
 translate(200,200);
- 
+
 var n = 12;
 for(var i=0; i<n ; i++) {   
         rotate(360/n);
         drawRacket();
-} 
+}
 ```
 
-![circles](http://www.utdallas.edu/~veerasam/js/index_files/image100.jpg) 
+![circles](http://www.utdallas.edu/~veerasam/js/index_files/image100.jpg)
 
 Circle of cars - make them face each other as shown below. Hint: scale(-1,1) can make it reflect across y axis. Here is the start-up code to draw one car! Complete this exercise and submit it as Assignment 7.
- 
+
 Functions bring modularity to the programs and we can invoke them any #####  of times wherever we want.
- 
+
 ```javascript
 var drawCar = function() {
      noStroke();
@@ -360,13 +360,13 @@ var drawCar = function() {
      fill(255, 0, 115);
      rect(90, 0, 100, 20);
      rect(105, -28, 70, 40);
-    
+
      // draw the wheels
      fill(77, 66, 66);
      ellipse(115, 21, 24, 24);
      ellipse(165, 21, 24, 24);
  };
-  
+
  translate(0,100);
  drawCar();
 ```
@@ -376,20 +376,20 @@ var drawCar = function() {
 ---
 
 ##### __Session 8: Recursion!__
- 
+
 Recursion is an advanced concept in Computer Science. Beginners are welcome to skip this portion! You can always come back later to tackle whenever you want...
- 
+
 Growing squares at corners: functions with parameters & recursion
- 
+
 Recursive functions are unique – they invoke themselves in the body of the function. In the following code, drawSquare() is invoked 4 times within drawSquare() itself.
- 
+
 That sounds like a formula for trouble, right? If we are not careful, infinite recursion can occur & programs can get stuck or crash. We control the recursion depth.
 
 ![recursion ](http://www.utdallas.edu/~veerasam/js/index_files/image118.jpg)
 
 ```javascript
 noStroke();
-  
+
  var drawSquare = function(level, x, y, len) {
      fill(x, len, y);
      rect(x, y, len, len);
@@ -400,12 +400,12 @@ noStroke();
          drawSquare(level-1, x+len, y+len, len/2);
      }
  };
-  
+
  drawSquare(8, 150, 150, 100);
 ```
- 
+
 Growing triangles at corners: functions with parameters & recursion
- 
+
 ```javascript
 var drawTriangle = function(level, x1, y1, x2, y2, x3, y3) {
     fill(x1, y1, x2-y2);
@@ -416,17 +416,17 @@ var drawTriangle = function(level, x1, y1, x2, y2, x3, y3) {
        drawTriangle(level-1, x2, y2, x2-(x1-x2)/2, y2-(y1-y2)/2, x2-(x3-x2)/2, y2-(y3-y2)/2);
        drawTriangle(level-1, x3, y3, x3-(x1-x3)/2, y3-(y1-y3)/2, x3-(x2-x3)/2, y3-(y2-y3)/2);
     }
-   
+
 };
- 
+
 drawTriangle(5, 200, 125, 125, 250, 275, 250);
 ```
 
 Growing circles at corners: functions with parameters & recursion
- 
+
 ```javascript
 noStroke();
- 
+
 var drawCircle = function(level, x, y, len) {
     fill(128+127*sin(x*(level+1)), 128+127*cos(len*(level+1)), 128+127*sin(y*(level+1)));
     ellipse(x, y, len, len);
@@ -437,9 +437,9 @@ var drawCircle = function(level, x, y, len) {
         drawCircle(level-1, x+len/2, y+len/2, len/2);
     }
 };
- 
+
 drawCircle(3, 200, 200, 200);
- 
+
 ```
 
 Use the following image as guidance to draw Koch curve recursively. Then, use your creativity to build fancy images using Koch curves as components & submit it as Assignment 8.
@@ -447,9 +447,9 @@ Use the following image as guidance to draw Koch curve recursively. Then, use yo
 http://aziarts.com/air/Resource%20Pics/fractals/Koch-curve.jpg
 
 Slide show of wonderful images! You can replace the code in drawIteration() with any code that we have seen for various artistic creations...
- 
+
 ```javascript
-noStroke(); 
+noStroke();
 var angle = 1;
 var drawIteration = function() {
 translate(200,200);
@@ -460,7 +460,7 @@ for (var i = 1000; i > 0; i--) {
     rotate(angle);
 }
 };
- 
+
 var counter = 0;
 var draw = function() {
     counter++;
@@ -476,7 +476,7 @@ var draw = function() {
 
 Converting for loop to use draw():
 
-```javascript 
+```javascript
 stroke(random(0,255),random(0,255), random(0,255));
 translate(50,100);
 for(var i=0 ; i<100 ; i++) {
@@ -485,9 +485,9 @@ for(var i=0 ; i<100 ; i++) {
     rotate(121);
 }
 ```
- 
+
 can be re-written with draw() function. To avoid endless drawings, let us use `mouseIsPressed` flag (you need to press the mouse in the canvas area to draw) – this enables us to stop the drawing at any time! Since the drawing matrix is reset every time before invoking `draw`(), I threw in `pushMatrix`() just to try – that made it work properly!
- 
+
 ```javascript
 translate(50,100);
 stroke(random(0,255),random(0,255), random(0,255));
@@ -502,22 +502,22 @@ var draw = function() {
 ```
 
 Discussion: why rotate(121) degrees?
- 
+
 Hypnoswirl: http://www.khanacademy.org/cs/hypnoswirl/826002294
- 
+
 Make the necessary changes to make your drawing close to each one of these.
 ![one](http://www.utdallas.edu/~veerasam/js/index_files/image122.jpg)
 ![two](http://www.utdallas.edu/~veerasam/js/index_files/image124.jpg)
 ![three](http://www.utdallas.edu/~veerasam/js/index_files/image126.jpg)
 
 Paddle ball: http://www.khanacademy.org/cs/paddle-ball/830543654
- 
+
 Make the ball pick-up speed every time when it hits the paddle.
- 
+
 Another option is to select a random speed within a range when the ball hits the paddle and bounces.
- 
+
 What is a game without the score? Define a variable score and come up with a meaningful mechanism to increment it & reset it, then use the following code add the score in the bottom.
- 
+
 ```javascript
 rect(100,360,200,40);
 textSize(40);
@@ -528,7 +528,7 @@ text(score,150,395);
 ---
 
 #####  __Session 9: Arrays__
-![Arrays](http://www.utdallas.edu/~veerasam/js/index_files/image130.jpg) 
+![Arrays](http://www.utdallas.edu/~veerasam/js/index_files/image130.jpg)
 Based on the knowledge you gained from the tutorials, write a program to output Texas Lotto numbers. You need to output 6 numbers - each number should be between 1 and 50 and the numbers should not be repeated. Submit this one as Assignment 9.
 
 ---
@@ -536,9 +536,9 @@ Based on the knowledge you gained from the tutorials, write a program to output 
 #####  __Session 10: Objects__
 ![Objects](http://www.utdallas.edu/~veerasam/js/index_files/image132.jpg)
 Browse and find your favorite game/program in Khan Academy and make a few modifications (write a short description about your changes as comments at the top of the program) and submit it as Assignment 10.
- 
+
 Few more games/programs:
- 
+
 https://www.khanacademy.org/cs/disco-ball/5654816797229056
 https://www.khanacademy.org/cs/basketball-with-gravity/4894623197036544
 https://www.khanacademy.org/cs/eq/6687018093903872
@@ -546,7 +546,7 @@ https://www.khanacademy.org/cs/paddleball-with-difficulty/6020289345880064
 https://www.khanacademy.org/cs/burn/6013107736936448
 https://www.khanacademy.org/cs/slot-machine/6547903560024064
 https://www.khanacademy.org/cs/day-to-night-and-back-on-mouse-click/6236512185745408
- 
+
 #####  __Additional resources:__
 * Khan Academy JavaScript documentation: www.khanacademy.org/cs/docs
 * Processing.js documentation: processingjs.org/reference
