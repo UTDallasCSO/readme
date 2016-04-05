@@ -1,6 +1,5 @@
 ### Day 1
 * [Installing Java](#installing-java)
-* [Java Environment](#java-enviroment)
 * [Java fundamentals](#java-fundamentals)
 * [Hello World](#hello-world)
 
