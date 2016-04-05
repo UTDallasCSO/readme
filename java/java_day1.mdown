@@ -5,14 +5,86 @@
 * [Hello World](#hello-world)
 
 #### Installing Java
-_This is a module about the fundamentals of Java. The instructor takes a poll in the class and gauges the level of the students - if they have had no prior experience with any programming language then, more time needs to be spent on this module than usual._
-JRE: Java Runtime Environment. It is basically the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution.
+* [for Ubuntu](#for-ubuntu)
+* [for Windows](#for-windows)
+* [for Macs](#for-macs)
 
-JDK: It's the full featured Software Development Kit for Java, including JRE, and the compilers and tools (like JavaDoc, and Java Debugger) to create and compile programs.
+##### For Ubuntu
+1. Check if you already have `java` installed
+    * Go to your terminal
+    * Type `java -version`
+    * If you get an output like `java version "1.8.0_65"
+Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)
+` then you have Java installed. Great!
+2. If not, you need to follow these steps:
+    * Is your Ubuntu 32bit or 64bit?
+    In your terminal, type `file /sbin/init`
+    * Download JDK from [link](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+    * Copy the Oracle Java binaries into the /usr/local/java directory
+    * Unpack the compressed Java binaries, in the directory `/usr/local/java`
+        * 32-bit Oracle Java on 32-bit Ubuntu Linux installation instructions:
+        Type/Copy/Paste: `sudo tar xvzf jdk-8u20-linux-i586.tar.gz`
+        * 64-bit Oracle Java on 64-bit Ubuntu Linux installation instructions:
+        Type/Copy/Paste: `sudo tar xvzf jdk-8u20-linux-x64.tar.gz`
+    * Edit the system PATH file /etc/profile and add the following system variables to your system path. Use nano, gedit or any other text editor, as root, open up `/etc/profile`
+        * Type/Copy/Paste: `sudo gedit /etc/profile`
+            or
+        * Type/Copy/Paste: `sudo nano /etc/profile`
+    * Scroll down to the end of the file using your arrow keys and add the following lines below to the end of your /etc/profile file:
+        ```bash
+        JAVA_HOME=/usr/local/java/jdk1.8.0_20
+        JRE_HOME=/usr/local/java/jre1.8.0_20
+        PATH=$PATH:$JRE_HOME/bin:$JAVA_HOME/bin
+        export JAVA_HOME
+        export JRE_HOME
+        export PATH
+        ```
+    * Save the file and exit `ctrl + x` and `y and <EnterKey>`
+    * Inform your Ubuntu Linux system where your Oracle Java JDK/JRE is located. This will tell the system that the new Oracle Java version is available for use.
+        * Type/Copy/Paste: `sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.8.0_20/bin/java" 1` this command notifies the system that Oracle Java JRE is available for use
+        * Type/Copy/Paste: `sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.8.0_20/bin/javac" 1` this command notifies the system that Oracle Java JDK is available for use
+    * Inform your Ubuntu Linux system that Oracle Java JDK/JRE must be the default Java.
+        * Type/Copy/Paste: `sudo update-alternatives --set java /usr/local/java/jdk1.8.0_20/bin/java` this command will set the java runtime environment for the system
+        * Type/Copy/Paste: `sudo update-alternatives --set javac /usr/local/java/jdk1.8.0_20/bin/javac` this command will set the javac compiler for the system
+    * Restart your system to load all the changes we just made
 
-Usually, when you only care about running Java programs on your browser or computer you will only install JRE. It's all you need. On the other hand, if you are planning to do some Java programming, you will also need JDK.
+##### For Windows
+1. Browse to [Oracle Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html) to download the latest JDK.
+2. Check the option to Accept License Agreement, and select the download file. "jdk-8u60-windows-x64.exe" in my case.
+3. Run the downloaded file after download completed. And follow the steps.
+4. After you've installed JDK, you have to set the system `Path` to it.
+    * To set path, search "Environment Variables", click "Edit the system environment variables".
+    Click on "Environment Variables..."
 
-Sometimes, even though you are not planning to do any Java Development on a computer, you still need the JDK installed. For example, if you are deploying a WebApp with JSP, you are technically just running Java Programs inside the application server. Why would you need JDK then? Because application server will convert JSP into Servlets and use JDK to compile the servlets.
+    * Select and edit Path
+    * Add the  path of the bin folder of your JDK, `C:\Program Files\Java\jdk1.8.0_60\bin` in my case.
+    * After path set, you can run `javac` in command prompt to check if java has been installed.
+    * Remember to open a new command prompt to see the changes before running `javac` on it.
+##### For Macs
+When you install the Java Development Kit (JDK), the associated Java Runtime Environment (JRE) is installed at the same time. The JavaFX SDK and Runtime are also installed and integrated into the standard JDK directory structure.
+
+* Depending on your processor, the downloaded file has one of the following names:
+    `jdk-8uversion-macosx-amd64.dmg`
+    `jdk-8uversion-macosx-x64.dmg`
+
+    Where `version` is 6 or later.
+
+* Download the file.
+Before the file can be downloaded, you must accept the license agreement.
+From either the Downloads window of the browser, or from the file browser, double click the `.dmg` file to launch it.
+* A Finder window appears containing an icon of an open box and the name of the .pkg file.
+* Double click the package icon to launch the Install app.
+* The Install app displays the Introduction window.
+Note:
+- In some cases, a Destination Select window appears. This is a bug, as there is only one option available. If you see this window, select Install for all users of this computer to enable the Continue button.
+- Click Continue.
+- The Installation Type window appears.
+- Click Install.
+- If a window appears that says "Installer is trying to install new software. Type your password to allow this."
+- Enter the Administrator login and password and click Install Software.
+- The software is installed and a confirmation window appears.
+Refer to [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk-for-mac-readme-1564562.html) for more information about the installation. After the software is installed, delete the .dmg file if you want to save disk space.
 
 #### Java fundamentals
 _Topics like Origins of Java, What is byte-code, class file and the java compiler._
