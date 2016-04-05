@@ -61,6 +61,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)
     * Add the  path of the bin folder of your JDK, `C:\Program Files\Java\jdk1.8.0_60\bin` in my case.
     * After path set, you can run `javac` in command prompt to check if java has been installed.
     * Remember to open a new command prompt to see the changes before running `javac` on it.
+
 ##### For Macs
 When you install the Java Development Kit (JDK), the associated Java Runtime Environment (JRE) is installed at the same time. The JavaFX SDK and Runtime are also installed and integrated into the standard JDK directory structure.
 
