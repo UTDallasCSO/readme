@@ -14,7 +14,7 @@ All the tutorials are under [this](www.khanacademy.org/cs/programming) :
 - [__Session 0:__ Core Programming Concepts](#session-0-core-programming-concepts)
 - [__Session 1:__ Introduction khanacademy.org/cs/programming/intro-to-programming:](#session-1-introduction-khanacademyorgcsprogrammingintro-to-programming)
 -  [__Session 2:__ Variable](#session-2-variable)
--  __Session 3:__ Animation basics khanacademy.org/cs/programming/animation-basics:
+-  [__Session 3:__ Animation basics](#-session-3-animation-basics)
 -  __Session 4:__ Text & Strings, Functions
 -  __Session 5:__ Logic and if Statements This version is bit slow compared to loops, but nice to see, right?
 -  __Power of Creativity:__
@@ -58,7 +58,9 @@ We learned to draw random ellipses in the previous section. How to restrict to c
 
 ---
 
-#####  __Session 3:__ Animation basics khanacademy.org/cs/programming/animation-basics:
+#####  __Session 3:__ Animation basics :
+
+[www.khanacademy.org/cs/programming/animation-basics](www.khanacademy.org/cs/programming/animation-basics)
 Animation basics – exciting stuff! Mouse Interaction tutorial seems messed up – use this one instead: mouseinteraction.swf Take the code for “Exploding Sun”. In addition to making the sun bigger, let it rise slowly too. Then, reverse the size – start with a big sun and reduce the size as the sun rises to the sky. Use the power of docs to learn about Math functions sin() and cos(). Instead of a ball moving left to right, move it around in circular fashion. Compute x and y position with the following equations: `var x = 100 * sin(angle); var y = 100 * cos(angle);` In the project Crazy Painter, following discrepancy creates uneven distribution of colors: Each color component’s range is 0 to 255, while mouseX and mouseY goes from 0 to 399. Use an equation to map the mouse position to color better. Enhance the project Crazy Painter by using Math expressions to change the colors. You can also utilize random() to add some spice J Here is an example:` fill(mouseX, random(100,200), mouseY/2); `You can also use a counter variable and increment it within draw() function and use it in fill(). That will enable you to change color over time!
 Combine this counter based color change idea with ball moving in circular fashion. Use modulo operator to reset the color values if needed. `var counter; counter++; counter = counter % 256;` use 3 different variables and increment bit differently for each one to get full range of colors! Submit this code as Week 3 assignment.
 
