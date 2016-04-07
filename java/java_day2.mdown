@@ -2,6 +2,19 @@
 * [Introducing variables, primitive data types and Operators](#introducing-variables-primitive data-types-and-operators)
 * [Program Control Statements](#program-control-statements)
 
+Before starting the session, suggest that students create a dummy class that will house almost all of the codes that we write in class today. There will be a lot of code and writing the class declarations and main methods again and again is a tedious job.
+
+You may also include OOPs concepts here and suggest to create new class files for each classes and then simply call those functions from a single main method containing class file when needed.
+
+```java
+public class Solution{
+
+    public static void main(String[] args){
+
+    }
+}
+```
+
 #### Introducing variables, primitive data types and Operators
 
 #### Variables
@@ -13,12 +26,51 @@ and the range of values that can be stored within that memory.
 There are different types of variables in Java. They are as follows:
 * __Instance Variables (Non-Static Fields)__:
 Non-static fields are also known as instance variables because their values are unique to each instance of a class.
-For example, the `currentSpeed` of one bicycle is independent from the `currentSpeed` of another.
+Example code to illustrate:
+```java
+class Hello{
+    public static class car{
+        static int wheels = 4;
+    }
+    public static class cycle{
+        static int wheels = 2;
+    }
+    public static void main(String[] args){
+        System.out.println("Wheels on cars "+car.wheels);
+        System.out.print("Wheels on cycles "+cycle.wheels);
 
+    }
+}
+```
 * __Class Variables (Static Fields)__:
 A class variable is any field declared with the static modifier. This tells the compiler that there is exactly one copy of this variable in existence, regardless of how many times the class has been instantiated.
 A field defining the number of gears for a particular kind of bicycle could be marked as static since, conceptually, the same number of gears will apply to all instances.
 The code `static int numGears = 6;` would create such a static field.
+```java
+class Cycle{
+    public static int numGears = 60000;
+    public static String name = "FancyName";
+
+    // Class Constructor
+    Cycle(String model, int gears){
+        this.name = model;
+        this.numGears = gears;
+    }
+    // Method to print the name of the cycle and the num of gears it has.
+    public void gearNums(){
+        System.out.println("No. of gears for "+name+" cycle are "+numGears);
+    }
+    // Why does this code give the output that it does?
+    public static void main(String[] args){
+        Cycle firstCycle = new Cycle("RedCycle", 12);
+        Cycle twoCycle = new Cycle("BlueCycle", 18);
+
+        firstCycle.gearNums();  // Expected output : RedCycle 12
+        twoCycle.gearNums();    // Expected output : BlueCycle 18
+
+    }
+}
+```
 
 * __Local Variables__:
 A method stores its temporary state in local variables. The syntax for declaring a local variable is similar to declaring a field (for example, `int count = 0;`).
@@ -27,7 +79,7 @@ As such, local variables are only visible to the methods in which they are decla
 
 * Parameters Variables__:
 Recall that the signature for the main method is `public static void main(String[] args`).
-Here, the args variable is the parameter to this method. The important thing to remember is that parameters are always classified as "variables" not "fields".
+Here, the `args` variable is the parameter to this method. The important thing to remember is that parameters are always classified as "variables" not "fields".
 
 ### Primitive Data Types
 
