@@ -137,12 +137,12 @@ bitwise | inclusive OR \|
 logical | AND	&&
 logical | OR	\|\|
 ternary	|	? :
-assignment	| = += -= *= /= %= &= ^= \|= <<= >>= >>>=
+assignment	| = += -= \*= /= %= &= ^= \|= <<= >>= >>>=
 
 #### Program Control Statements
 * if, if-else, if-else-if
 * while, do-while
-* for (on Primitives), for (on Objects) 
+* for (on Primitives), for (on Objects)
 * switch, case, else
 
 ##### `if` condition
@@ -205,5 +205,131 @@ public class Solution{
         Boolean homeworkDone = True;
         eatIceCream(permission, homeworkDone);
     }
+}
+```
+##### `while` condition
+
+While it is a school night, no video games. If it is a weekend, you can play!
+```java
+public class Solution{
+    public static void playVideoGames(int dayOftheWeek){
+        while(dayOftheWeek < 6){
+            System.out.println("Day: "+dayOftheWeek+" is a school-night. No games!!");
+
+            // How about tomorrow?
+            dayOftheWeek++;
+        }
+        System.out.println("Today is a weekend. Now you can play a video game!")
+    }
+
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        // What is the day number when you want to play?
+        int day = in.nextInt();
+        // Let us find out when you can play!
+        playVideoGames(day);
+    }
+}
+```
+##### `do-while` condition
+
+This is a little weird example for the usage of the do-while statement. What we are trying to do this is driving a nail in a wall. We will hammer it in once, and keep hammering until the it is fully inside the wall i.e. distance = 0!
+```java
+public class Solution{
+    public static void hammerAway(int nailLength){
+        do{
+            nailLength -= Math.random(0, nailLength);
+            System.out.print(nailLength + " cms of the nail are still poking out!");
+        } while(nailLength != 0)
+        System.out.print("Nail is fully in the wall now!");
+        return;
+    }
+
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        // What is the length of the nail?
+        int nail = in.nextInt();
+        // Let us find out when you can play!
+        hammerAway(nail);
+    }
+}
+```
+
+##### `for` for Primitives
+```java
+public class Solution{
+    public static void rollCall(int numberOfStudents){
+        for(int i = 1; i <= numberOfStudents; i++){
+            System.out.println("Is roll-call number :"+i+ " present?");
+        }
+    }
+
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        // How many kids in the class?
+        int total = in.nextInt();
+        // Let us find out when you can play!
+        rollCall(total);
+    }
+}
+```
+
+##### `for` for Objects
+```java
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Solution {
+	static List<String> students = new ArrayList<>();
+
+	public static void rollCall() {
+		for (String student : students) {
+			System.out.println("Is "+student+ " present?");
+		}
+	}
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+		// How many kids in the class?
+		int total = in.nextInt();
+
+		// Add all their names to the list called students.
+		for(int i = 0; i < total; i++){
+			students.add(in.next());
+		}
+
+		// Call the function rollCall
+		rollCall();
+	}
+}
+```
+
+##### `switch-case-else`
+Sometimes a binary check is not enough. Sometimes we need to check different things. For example - consider that you want to eat out tonight and you are asked to enter your choice of food. If you are only given two choices for the rest of your life, you are going to hate even the pizza eventually! Switch case else will allow us to provide you with more options. Well, code lets you eat awesome food, who knew!
+```java
+public class Solution {
+	public static void whereDoIEat(String feelLikeEating) {
+		for (String student : students) {
+			System.out.println("Is "+student+ " present?");
+		}
+	}
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+		// How many kids in the class?
+		int total = in.nextInt();
+
+		// Add all their names to the list called students.
+		for(int i = 0; i < total; i++){
+			students.add(in.next());
+		}
+
+		// Call the function rollCall
+		rollCall();
+	}
 }
 ```
