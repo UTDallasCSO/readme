@@ -307,29 +307,90 @@ public class Solution {
 }
 ```
 
-##### `switch-case-else`
-Sometimes a binary check is not enough. Sometimes we need to check different things. For example - consider that you want to eat out tonight and you are asked to enter your choice of food. If you are only given two choices for the rest of your life, you are going to hate even the pizza eventually! Switch case else will allow us to provide you with more options. Well, code lets you eat awesome food, who knew!
+##### `switch-case-default`
+Sometimes a binary check is not enough. Sometimes we need to check different things. For example - consider that you want to eat out tonight and you are asked to enter your choice of food. If you are only given two choices for the rest of your life, you are going to hate even the pizza eventually! Switch case default will allow us to provide you with more options. Well, code lets you eat awesome food, who knew!
+
 ```java
+import java.util.*;
+
 public class Solution {
-	public static void whereDoIEat(String feelLikeEating) {
-		for (String student : students) {
-			System.out.println("Is "+student+ " present?");
-		}
+	public static void whereDoIEat(String dayOftheWeek) {
+		switch(dayOftheWeek){
+            case "Monday":{
+                System.out.println("Pizza!");
+            }
+            case "Tuesday":{
+                System.out.println("Subway!");
+            }
+            case "Wednesday":{
+                System.out.println("Pasta!");
+            }
+            case "Thursday":{
+                System.out.println("Baked Beans and toast!");
+            }
+            case "Friday":{
+                System.out.println("Ice-cream!");
+            }
+
+        default:
+            System.out.print("Enter a day between Monday - Friday");
+        }
 	}
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		// How many kids in the class?
-		int total = in.nextInt();
+		// Which day of the week is this?
+		String today = in.next();
 
-		// Add all their names to the list called students.
-		for(int i = 0; i < total; i++){
-			students.add(in.next());
-		}
+        // Call the function whereDoIEat
+		whereDoIEat(today);
+	}
+}
+```
+Is there a problem with the previous code? Can you try to find out what needs to change?
+Solution: Need to put a `break` after every Sysout in the cases
+Corrected code looks like:
+```java
+import java.util.*;
 
-		// Call the function rollCall
-		rollCall();
+public class Solution {
+	public static void whereDoIEat(String dayOftheWeek) {
+		switch(dayOftheWeek){
+            case "Monday":{
+                System.out.println("Pizza!");
+                break;
+            }
+            case "Tuesday":{
+                System.out.println("Subway!");
+                break;
+            }
+            case "Wednesday":{
+                System.out.println("Pasta!");
+                break;
+            }
+            case "Thursday":{
+                System.out.println("Baked Beans and toast!");
+                break;
+            }
+            case "Friday":{
+                System.out.println("Ice-cream!");
+                break;
+            }
+
+        default:
+            System.out.print("Enter a day between Monday - Friday");
+        }
+	}
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+		// Which day of the week is this?
+		String today = in.next();
+
+        // Call the function whereDoIEat
+		whereDoIEat(today);
 	}
 }
 ```

@@ -20,7 +20,7 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
 * Some excellent guides to quickly understand the basics of Git are [here](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1), [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository) & [here](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow).
 * Now you are finally ready to submit pull requests and make some contributions!
 * Head over to the [content repo](github.com/utdallascso/content)
-* You will need to __clone__ this repo by selecting either the Https address or the SSH (depending on your Git setup) ![Where to find this 'clone' address?](/images/content/gitclone.png)
+* You will need to __clone__ this repo by selecting either the Https address or the SSH (depending on your Git setup)
 * Start making some awesome [contributions](https://www.atlassian.com/git/tutorials/making-a-pull-request/)! :v:
 
 **Note** Information about using the markdown format can be found [here](https://blog.ghost.org/markdown/)

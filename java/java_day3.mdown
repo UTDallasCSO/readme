@@ -1,3 +1,72 @@
 ### Day 3
-* [Introducing Classes, Objects and Methods]()
-* [More Data Types and Operators]()
+* [Introducing Classes, Objects and Methods](#introducing-classes-objects-and-methods)
+
+##### Introducing Classes, Objects and Methods
+We have been using classes since the beginning of the course. Everything in java is class based so we didn't really have a choice otherwise. Here we will define a class, understand what it actually means and use some of the powerful features that make a java class useful.
+
+The basic syntax of a class is:
+```java
+class Classname{
+    // Declare instance variables.
+    type varName; // & so on...
+
+    // Declare Methods
+    type method1(parameters){
+        // body of the method here
+    }
+}
+```
+Although you won't get an error, one class should ideally define one and only one logical entity.
+Suppose you were writing a program of your favorite video game. You have a type of character called `warrior` and every warrior has a `weapon`
+```java
+// This is a bad design. Why?
+class Game{
+    String warrior_name;
+    String warrior_weapon;
+
+    public void walk(int s){
+        // Make the warrior walk forward by s steps
+    }
+
+    public void weaponBreaks(){
+        // If the damage to the weapon is too high, it breaks
+    }
+}
+```
+ This is a bad design for the Game class. Typically in this case, you must have 3 different classes. Game, Warrior and Weapon. The Game class will simply have in instance of the Warrior class and Weapon class.
+
+ So the point to note down here is that a well designed class groups logically connected information together.
+
+ Q: Will the `main()` method be a member of every class that we write?
+ A: No. For classes like `warrior` or `weapon` that do not have meaning on their own - i.e. basically the program is unlikely to start execution from those classes, need not have a main method.
+
+```java
+import java.util.*;
+
+class Vehicle{
+    // Member variables
+    int range;
+    String color;
+    int num_of_wheels;
+    int mpg;
+
+    // Member function
+    void getRange(){
+        System.out.println(range);
+    }
+    void setRange(int newRange){
+        range = newRange;
+    }
+
+}
+class Solution{
+    Vehicle mustang = new Vehicle();
+
+    public static void main(String[] args){
+        Solution latest = new Solution();
+        latest.mustang.setRange(1000);
+        latest.mustang.getRange();
+    }
+}
+```
+A new `.class` file will be created for each of the classes in this code. 
