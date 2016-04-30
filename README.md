@@ -1,7 +1,7 @@
 # What is this?
 _Curated content for all tools and languages and camps taught under the auspices of the CS Outreach programs. You can conduct camps upto a week-long using just the material in these repos for the subject assigned to you._
 #### Contents:
-* [Alice](#../alice)
+* [Alice](../alice)
 
 
 ### The whole idea is...
