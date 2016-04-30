@@ -2,7 +2,10 @@
 _Curated content for all tools and languages and camps taught under the auspices of the CS Outreach programs. You can conduct camps upto a week-long using just the material in these repos for the subject assigned to you._
 #### Contents:
 * [Alice](../../../alice)
-
+* [Computer Architecture](../../../comparch)
+* [Java](../../../java)
+* [JavaScript](../../../javascript)
+* [Scratch](../../../scratch)
 
 ### The whole idea is...
 ----
@@ -28,9 +31,10 @@ You are welcome to submit pull requests for corrections, enhancements, addition 
 
 **Note** Information about using the markdown format can be found [here](https://blog.ghost.org/markdown/)
 
-### Organization of the repo
+### Organization of the repos
 ---
 * __Topics__: All topics have their individual folders. Each folder must cover all sorts of CSO camps and activities. The recommended structure is something on the lines of:
+
 ```
   JAVA
     |__ Beginner
